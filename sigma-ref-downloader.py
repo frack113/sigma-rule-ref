@@ -4,11 +4,15 @@
 
 import asyncio
 from playwright.async_api import async_playwright
+
 from sigma.collection import SigmaCollection
+
 import pathlib
 import hashlib
 
-path_to_rules = [
+import click
+
+sigmahq_folder = [
     "rules",
     "rules-emerging-threats",
     "rules-placeholder",
@@ -97,19 +101,30 @@ async def url_to_pdf(url, output_path):
             )
         await browser.close()
 
-rule_paths = SigmaCollection.resolve_paths(path_to_rules)
-rule_collection = SigmaCollection.load_ruleset(rule_paths, collect_errors=True)
-for sigmaHQrule in rule_collection:
-    rule_id = str(sigmaHQrule.id)
-    for reference in sigmaHQrule.references:
-        if reference.startswith("http"):
-            if not pathlib.Path(rule_id).exists():
-                pathlib.Path(rule_id).mkdir()
-            print(f" --> {reference}")
-            sha_name = hashlib.sha256(reference.encode()).hexdigest()           
-            print(f"   |--> {sha_name}")
-            output_path = f"{rule_id}/{sha_name}.pdf"
-            if not pathlib.Path(output_path).exists():
-                asyncio.run(url_to_pdf(reference, output_path))
-            else:
-                print(f"   |--> pass")
+
+
+
+@click.command()
+@click.argument("path")
+def check(path):
+  path_to_rules = [f"{path}/{folder}" for folder in sigmahq_folder]
+  rule_paths = SigmaCollection.resolve_paths(path_to_rules)
+  rule_collection = SigmaCollection.load_ruleset(rule_paths, collect_errors=True)
+  for sigmaHQrule in rule_collection:
+      rule_id = str(sigmaHQrule.id)
+      for reference in sigmaHQrule.references:
+          if reference.startswith("http"):
+              if not pathlib.Path(rule_id).exists():
+                  pathlib.Path(rule_id).mkdir()
+              print(f" --> {reference}")
+              sha_name = hashlib.sha256(reference.encode()).hexdigest()           
+              print(f"   |--> {sha_name}")
+              output_path = f"pdf/{rule_id}/{sha_name}.pdf"
+              if not pathlib.Path(output_path).exists():
+                  asyncio.run(url_to_pdf(reference, output_path))
+              else:
+                  print(f"   |--> pass")
+
+
+if __name__ == "__main__":
+    check()
