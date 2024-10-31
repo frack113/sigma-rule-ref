@@ -8,4 +8,4 @@ The SigmaHQ rule's reference as PDF
 - [ ] download pdf link
 - [ ] find why some pdf are a dark page
 - [ ] generate a json summary
-- [ ] add a progress bar
+- [X] add a progress bar
