@@ -12,13 +12,14 @@ import hashlib
 
 import click
 
-sigmahq_folder = [
-    "rules",
-    "rules-emerging-threats",
-    "rules-placeholder",
-    "rules-threat-hunting",
-    "rules-compliance",
-]
+# sigmahq_folder = [
+#     "rules",
+#     "rules-emerging-threats",
+#     "rules-placeholder",
+#     "rules-threat-hunting",
+#     "rules-compliance",
+# ]
+sigmahq_folder = ["rules"]
 
 header = """
 <html>

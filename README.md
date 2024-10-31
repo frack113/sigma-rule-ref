@@ -9,3 +9,5 @@ The SigmaHQ rule's reference as PDF
 - [ ] find why some pdf are a dark page
 - [ ] generate a json summary
 - [X] add a progress bar
+- [ ] remove pdf without ref
+- [ ] manage web error
