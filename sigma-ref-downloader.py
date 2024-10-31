@@ -12,13 +12,14 @@ import hashlib
 
 import click
 
-sigmahq_folder = [
-    "rules",
-    "rules-emerging-threats",
-    "rules-placeholder",
-    "rules-threat-hunting",
-    "rules-compliance",
-]
+# sigmahq_folder = [
+#     "rules",
+#     "rules-emerging-threats",
+#     "rules-placeholder",
+#     "rules-threat-hunting",
+#     "rules-compliance",
+# ]
+sigmahq_folder = ["rules"]
 
 header = """
 <html>
@@ -85,45 +86,49 @@ footer = """
 </html>
 """
 
+
 async def url_to_pdf(url, output_path):
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page()
-        await page.goto(url)
-        await page.emulate_media(media='screen')
-        await page.pdf(
-            path=output_path,
-            display_header_footer=True,
-            header_template=header,
-            footer_template=footer,
-            margin={ 'top': '100px','bottom': '40px'},
-            print_background=True
+        try:
+            await page.goto(url=url, wait_until="domcontentloaded")
+            await page.emulate_media(media="screen")
+            await page.pdf(
+                path=output_path,
+                display_header_footer=True,
+                header_template=header,
+                footer_template=footer,
+                margin={"top": "100px", "bottom": "40px"},
+                print_background=True,
             )
+        except:
+            pass 
         await browser.close()
-
-
 
 
 @click.command()
 @click.argument("path")
 def check(path):
-  path_to_rules = [f"{path}/{folder}" for folder in sigmahq_folder]
-  rule_paths = SigmaCollection.resolve_paths(path_to_rules)
-  rule_collection = SigmaCollection.load_ruleset(rule_paths, collect_errors=True)
-  for sigmaHQrule in rule_collection:
-      rule_id = str(sigmaHQrule.id)
-      for reference in sigmaHQrule.references:
-          if reference.startswith("http"):
-              if not pathlib.Path(rule_id).exists():
-                  pathlib.Path(rule_id).mkdir()
-              print(f" --> {reference}")
-              sha_name = hashlib.sha256(reference.encode()).hexdigest()           
-              print(f"   |--> {sha_name}")
-              output_path = f"pdf/{rule_id}/{sha_name}.pdf"
-              if not pathlib.Path(output_path).exists():
-                  asyncio.run(url_to_pdf(reference, output_path))
-              else:
-                  print(f"   |--> pass")
+    path_to_rules = [f"{path}/{folder}" for folder in sigmahq_folder]
+    rule_paths = SigmaCollection.resolve_paths(path_to_rules)
+    rule_collection = SigmaCollection.load_ruleset(rule_paths, collect_errors=True)
+    with click.progressbar(rule_collection) as bar:
+        for sigmaHQrule in bar:
+            rule_id = str(sigmaHQrule.id)
+            for reference in sigmaHQrule.references:
+                if reference.startswith("http"):
+
+                    if not pathlib.Path(f"pdf/{rule_id}").exists():
+                        pathlib.Path(f"pdf/{rule_id}").mkdir()
+
+                    if reference.lower().endswith(".pdf"):
+                        continue
+
+                    sha_name = hashlib.sha256(reference.encode()).hexdigest()
+                    output_path = f"pdf/{rule_id}/{sha_name}.pdf"
+                    if not pathlib.Path(output_path).exists():
+                        asyncio.run(url_to_pdf(reference, output_path))
 
 
 if __name__ == "__main__":
