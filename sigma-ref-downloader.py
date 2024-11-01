@@ -12,14 +12,14 @@ import hashlib
 import click
 import json
 
-# sigmahq_folder = [
-#     "rules",
-#     "rules-emerging-threats",
-#     "rules-placeholder",
-#     "rules-threat-hunting",
-#     "rules-compliance",
-# ]
-sigmahq_folder = ["rules"]
+sigmahq_folder = [
+    "rules",
+    "rules-emerging-threats",
+    "rules-placeholder",
+    "rules-threat-hunting",
+    "rules-compliance",
+]
+
 
 header = """
 <html>
@@ -111,16 +111,20 @@ def create_json(data:dict,name:str):
         json.dump(data,file,indent=4)
 
 def create_md(data:dict,name:str):
-    with open(name,"w",encoding="UTF-8") as file:
-        for k,v in data.items():
-            file.write(f"\n# {v['yaml']}\n")
-            file.write(f"Title : {v['title']}\n")
-            file.write(f"Rule id : {k}\n")
-            file.write(f"| Url | Pdf |\n")
-            file.write(f"| --- | --- |\n")
-            for ref in v['reference']:
-                file.write(f"| {ref['url']} | ({ref['pdf']})[{ref['pdf']}] |\n")
+    revert = {v['yaml']:k for k,v in data.items()}
+    sorted_revert =  {k:revert[k] for k in sorted(revert)}
 
+    with open(name,"w",encoding="UTF-8") as file:
+        file.write("# Sigma rule references as PDF\n\n")
+        for k,v in sorted_revert.items():
+            file.write(f"## {k}\n")
+            file.write(f"Title : {data[v]['title']}\n")
+            file.write(f"Rule id : {v}\n")
+            file.write("| Url | Pdf |\n")
+            file.write("| --- | --- |\n")
+            for ref in data[v]['reference']:
+                file.write(f"| {ref['url']} | [{ref['pdf']}]({ref['pdf']}) |\n")
+            file.write("\n")
 
 @click.command()
 @click.argument("path")
