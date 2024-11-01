@@ -11,3 +11,7 @@ The SigmaHQ rule's reference as PDF
 - [X] add a progress bar
 - [ ] remove pdf without ref
 - [ ] manage web error
+
+## Pdf references
+
+[references](./references.md)

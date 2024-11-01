@@ -106,6 +106,21 @@ async def url_to_pdf(url, output_path):
             pass 
         await browser.close()
 
+def create_json(data:dict,name:str):
+    with open(name,"w",encoding="UTF-8") as file:
+        json.dump(data,file,indent=4)
+
+def create_md(data:dict,name:str):
+    with open(name,"w",encoding="UTF-8") as file:
+        for k,v in data.items():
+            file.write(f"\n# {v['yaml']}\n")
+            file.write(f"Title : {v['title']}\n")
+            file.write(f"Rule id : {k}\n")
+            file.write(f"| Url | Pdf |\n")
+            file.write(f"| --- | --- |\n")
+            for ref in v['reference']:
+                file.write(f"| {ref['url']} | ({ref['pdf']})[{ref['pdf']}] |\n")
+
 
 @click.command()
 @click.argument("path")
@@ -140,8 +155,8 @@ def check(path):
                         "pdf": output_path}
                         )
 
-    with open("References.json","w") as file:
-        json.dump(json_data,file,indent=4)
+    create_json(json_data,"references.json")
+    create_md(json_data,"references.md")
 
 if __name__ == "__main__":
     if not pathlib.Path("pdf").exists():
