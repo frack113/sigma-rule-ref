@@ -9,8 +9,8 @@ from sigma.collection import SigmaCollection
 
 import pathlib
 import hashlib
-
 import click
+import json
 
 # sigmahq_folder = [
 #     "rules",
@@ -110,26 +110,40 @@ async def url_to_pdf(url, output_path):
 @click.command()
 @click.argument("path")
 def check(path):
+    json_data = {}
     path_to_rules = [f"{path}/{folder}" for folder in sigmahq_folder]
     rule_paths = SigmaCollection.resolve_paths(path_to_rules)
     rule_collection = SigmaCollection.load_ruleset(rule_paths, collect_errors=True)
     with click.progressbar(rule_collection) as bar:
         for sigmaHQrule in bar:
             rule_id = str(sigmaHQrule.id)
+
+            json_data[rule_id] = {
+                "yaml": sigmaHQrule.source.path.name,
+                "title": sigmaHQrule.title,
+                "reference": []
+            }
+
             for reference in sigmaHQrule.references:
                 if reference.startswith("http"):
-
-                    if not pathlib.Path(f"pdf/{rule_id}").exists():
-                        pathlib.Path(f"pdf/{rule_id}").mkdir()
 
                     if reference.lower().endswith(".pdf"):
                         continue
 
                     sha_name = hashlib.sha256(reference.encode()).hexdigest()
-                    output_path = f"pdf/{rule_id}/{sha_name}.pdf"
+                    output_path = f"pdf/{sha_name}.pdf"
                     if not pathlib.Path(output_path).exists():
                         asyncio.run(url_to_pdf(reference, output_path))
+                    
+                    json_data[rule_id]["reference"].append({
+                        "url": reference,
+                        "pdf": output_path}
+                        )
 
+    with open("References.json","w") as file:
+        json.dump(json_data,file,indent=4)
 
 if __name__ == "__main__":
+    if not pathlib.Path("pdf").exists():
+        pathlib.Path("pdf").mkdir()
     check()
