@@ -92,7 +92,7 @@ async def url_to_pdf(url, output_path):
         browser = await p.chromium.launch()
         page = await browser.new_page()
         try:
-            await page.goto(url=url, wait_until="domcontentloaded")
+            await page.goto(url=url, wait_until="networkidle")
             await page.emulate_media(media="screen")
             await page.pdf(
                 path=output_path,
@@ -101,13 +101,17 @@ async def url_to_pdf(url, output_path):
                 footer_template=footer,
                 margin={"top": "100px", "bottom": "40px"},
                 print_background=True,
+                landscape =True,
+                format="Ledger",
             )
-        except:
-            pass 
+        except Exception as err:
+            print("Open error :") 
+            print(err)
+            
         await browser.close()
 
 def create_json(data:dict,name:str):
-    with open(name,"w",encoding="UTF-8") as file:
+    with open(name,"w",encoding="UTF-8",newline='') as file:
         json.dump(data,file,indent=4)
 
 def create_md(data:dict,name:str):
@@ -138,7 +142,7 @@ def check(path):
             rule_id = str(sigmaHQrule.id)
 
             json_data[rule_id] = {
-                "yaml": sigmaHQrule.source.path.name,
+                "yaml": sigmaHQrule.source.path.stem,
                 "title": sigmaHQrule.title,
                 "reference": []
             }
