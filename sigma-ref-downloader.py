@@ -101,6 +101,8 @@ async def url_to_pdf(url, output_path):
                 footer_template=footer,
                 margin={"top": "100px", "bottom": "40px"},
                 print_background=True,
+                landscape =True,
+                format="Ledger",
             )
         except Exception as err:
             print("Open error :") 
