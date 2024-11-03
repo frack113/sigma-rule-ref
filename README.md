@@ -9,6 +9,10 @@ The SigmaHQ rule's reference as PDF
 - [ ] manage General Data Protection Regulation
 - [ ] remove pdf without ref
 - [ ] manage web error
+  - [ ] Timeout
+  - [ ] ERR_ABORTED
+  - [ ] ERR_NAME_NOT_RESOLVED
+  - [ ] ERR_CERT_COMMON_NAME_INVALID
 - [X] split references.md 
 - [X] add a markdown output
 - [X] find why some pdf are a dark page

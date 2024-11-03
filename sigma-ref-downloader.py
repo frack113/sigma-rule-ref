@@ -12,6 +12,7 @@ import hashlib
 import click
 import json
 import string
+import re
 
 sigmahq_folder = [
     "rules",
@@ -87,13 +88,16 @@ footer = """
 </html>
 """
 
+def get_site(reference:str)->str:
+    match = re.search(r'https?://([^/]*)',reference)
+    return match.group()
 
 async def url_to_pdf(url, output_path):
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page()
-        try:
-            await page.goto(url=url, wait_until="networkidle")
+        try:        
+            await page.goto(url=url,timeout=0, wait_until="load")
             await page.emulate_media(media="screen")
             await page.pdf(
                 path=output_path,
@@ -113,7 +117,7 @@ async def url_to_pdf(url, output_path):
 
 def create_json(data:dict,name:str):
     with open(name,"w",encoding="UTF-8",newline='') as file:
-        json.dump(data,file,indent=4)
+        json.dump(data,file,indent=4,sort_keys=True)
 
 def create_md(data:dict,name:str):
     revert = {v['yaml']:k for k,v in data.items()}
@@ -129,18 +133,19 @@ def create_md(data:dict,name:str):
         filename = f"{name}_{k[0]}.md"
         with open(filename,"a",encoding="UTF-8",newline='') as file:
             file.write(f"## {k}\n")
-            file.write(f"Title : {data[v]['title']}\n")
-            file.write(f"Rule id : {v}\n")
+            file.write(f"Title : {data[v]['title']}\n\n")
+            file.write(f"Rule id : {v}\n\n")
             file.write("| Url | Pdf |\n")
             file.write("| --- | --- |\n")
             for ref in data[v]['reference']:
                 file.write(f"| {ref['url']} | [{ref['pdf']}]({ref['pdf']}) |\n")
-            file.write("\n")
+            file.write("\n\n")
 
 @click.command()
 @click.argument("path")
 def check(path):
     json_data = {}
+    url_data = {}
     path_to_rules = [f"{path}/{folder}" for folder in sigmahq_folder]
     rule_paths = SigmaCollection.resolve_paths(path_to_rules)
     rule_collection = SigmaCollection.load_ruleset(rule_paths, collect_errors=True)
@@ -157,6 +162,9 @@ def check(path):
             for reference in sigmaHQrule.references:
                 if reference.startswith("http"):
 
+                    url_uri = get_site(reference)
+                    url_data.update({url_uri:'0'})
+
                     if reference.lower().endswith(".pdf"):
                         continue
 
@@ -171,6 +179,7 @@ def check(path):
                         )
 
     create_json(json_data,"references.json")
+    create_json(url_data,"site.json")
     create_md(json_data,"references")
 
 if __name__ == "__main__":
