@@ -13,6 +13,7 @@ The SigmaHQ rule's reference as PDF
   - [ ] ERR_ABORTED
   - [ ] ERR_NAME_NOT_RESOLVED
   - [ ] ERR_CERT_COMMON_NAME_INVALID
+  - [ ] ERR_HTTP2_PROTOCOL_ERROR
 - [X] split references.md 
 - [X] add a markdown output
 - [X] find why some pdf are a dark page

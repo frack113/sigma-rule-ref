@@ -92,12 +92,18 @@ def get_site(reference:str)->str:
     match = re.search(r'https?://([^/]*)',reference)
     return match.group()
 
+
 async def url_to_pdf(url, output_path):
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page()
         try:        
             await page.goto(url=url,timeout=0, wait_until="load")
+
+            # General Data Protection Regulation Click "Accept" button
+            if await page.locator("#hs-eu-confirmation-button").is_visible():
+                await page.locator("#hs-eu-confirmation-button").click(timeout=2000)
+
             await page.emulate_media(media="screen")
             await page.pdf(
                 path=output_path,
