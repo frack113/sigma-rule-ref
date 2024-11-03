@@ -4,12 +4,12 @@
 import pathlib
 import json
 
-remove="https://www.huntress.com"
+remove = "https://www.huntress.com"
 
-with open("References.json","r",encoding="UTF-8") as file:
+with open("References.json", "r", encoding="UTF-8") as file:
     data = json.load(file)
 
-for k,v in data.items():
+for k, v in data.items():
     for ref in v["reference"]:
         if ref["url"].startswith(remove):
             if pathlib.Path(ref["pdf"]).exists():
