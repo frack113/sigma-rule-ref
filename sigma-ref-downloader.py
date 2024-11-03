@@ -11,6 +11,7 @@ import pathlib
 import hashlib
 import click
 import json
+import string
 
 sigmahq_folder = [
     "rules",
@@ -118,9 +119,15 @@ def create_md(data:dict,name:str):
     revert = {v['yaml']:k for k,v in data.items()}
     sorted_revert =  {k:revert[k] for k in sorted(revert)}
 
-    with open(name,"w",encoding="UTF-8") as file:
-        file.write("# Sigma rule references as PDF\n\n")
-        for k,v in sorted_revert.items():
+    #create all the md
+    for letter in list(string.ascii_lowercase):
+        filename = f"{name}_{letter}.md"
+        with open(filename,"w",encoding="UTF-8",newline='') as file:
+            file.write("# Sigma rule references as PDF\n\n") 
+
+    for k,v in sorted_revert.items():
+        filename = f"{name}_{k[0]}.md"
+        with open(filename,"a",encoding="UTF-8",newline='') as file:
             file.write(f"## {k}\n")
             file.write(f"Title : {data[v]['title']}\n")
             file.write(f"Rule id : {v}\n")
@@ -164,7 +171,7 @@ def check(path):
                         )
 
     create_json(json_data,"references.json")
-    create_md(json_data,"references.md")
+    create_md(json_data,"references")
 
 if __name__ == "__main__":
     if not pathlib.Path("pdf").exists():
