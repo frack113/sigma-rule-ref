@@ -11,6 +11,8 @@ import pathlib
 import hashlib
 import click
 import json
+import string
+import re
 
 sigmahq_folder = [
     "rules",
@@ -87,12 +89,22 @@ footer = """
 """
 
 
+def get_site(reference: str) -> str:
+    match = re.search(r"https?://([^/]*)", reference)
+    return match.group()
+
+
 async def url_to_pdf(url, output_path):
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         page = await browser.new_page()
         try:
-            await page.goto(url=url, wait_until="networkidle")
+            await page.goto(url=url, timeout=0, wait_until="load")
+
+            # General Data Protection Regulation Click "Accept" button
+            if await page.locator("#hs-eu-confirmation-button").is_visible():
+                await page.locator("#hs-eu-confirmation-button").click(timeout=2000)
+
             await page.emulate_media(media="screen")
             await page.pdf(
                 path=output_path,
@@ -101,39 +113,49 @@ async def url_to_pdf(url, output_path):
                 footer_template=footer,
                 margin={"top": "100px", "bottom": "40px"},
                 print_background=True,
-                landscape =True,
+                landscape=True,
                 format="Ledger",
             )
         except Exception as err:
-            print("Open error :") 
+            print("Open error :")
             print(err)
-            
+
         await browser.close()
 
-def create_json(data:dict,name:str):
-    with open(name,"w",encoding="UTF-8",newline='') as file:
-        json.dump(data,file,indent=4)
 
-def create_md(data:dict,name:str):
-    revert = {v['yaml']:k for k,v in data.items()}
-    sorted_revert =  {k:revert[k] for k in sorted(revert)}
+def create_json(data: dict, name: str):
+    with open(name, "w", encoding="UTF-8", newline="") as file:
+        json.dump(data, file, indent=4, sort_keys=True)
 
-    with open(name,"w",encoding="UTF-8") as file:
-        file.write("# Sigma rule references as PDF\n\n")
-        for k,v in sorted_revert.items():
+
+def create_md(data: dict, name: str):
+    revert = {v["yaml"]: k for k, v in data.items()}
+    sorted_revert = {k: revert[k] for k in sorted(revert)}
+
+    # create all the md
+    for letter in list(string.ascii_lowercase):
+        filename = f"{name}_{letter}.md"
+        with open(filename, "w", encoding="UTF-8", newline="") as file:
+            file.write("# Sigma rule references as PDF\n\n")
+
+    for k, v in sorted_revert.items():
+        filename = f"{name}_{k[0]}.md"
+        with open(filename, "a", encoding="UTF-8", newline="") as file:
             file.write(f"## {k}\n")
-            file.write(f"Title : {data[v]['title']}\n")
-            file.write(f"Rule id : {v}\n")
+            file.write(f"Title : {data[v]['title']}\n\n")
+            file.write(f"Rule id : {v}\n\n")
             file.write("| Url | Pdf |\n")
             file.write("| --- | --- |\n")
-            for ref in data[v]['reference']:
+            for ref in data[v]["reference"]:
                 file.write(f"| {ref['url']} | [{ref['pdf']}]({ref['pdf']}) |\n")
-            file.write("\n")
+            file.write("\n\n")
+
 
 @click.command()
 @click.argument("path")
 def check(path):
     json_data = {}
+    url_data = {}
     path_to_rules = [f"{path}/{folder}" for folder in sigmahq_folder]
     rule_paths = SigmaCollection.resolve_paths(path_to_rules)
     rule_collection = SigmaCollection.load_ruleset(rule_paths, collect_errors=True)
@@ -144,11 +166,14 @@ def check(path):
             json_data[rule_id] = {
                 "yaml": sigmaHQrule.source.path.stem,
                 "title": sigmaHQrule.title,
-                "reference": []
+                "reference": [],
             }
 
             for reference in sigmaHQrule.references:
                 if reference.startswith("http"):
+
+                    url_uri = get_site(reference)
+                    url_data.update({url_uri: "0"})
 
                     if reference.lower().endswith(".pdf"):
                         continue
@@ -157,14 +182,15 @@ def check(path):
                     output_path = f"pdf/{sha_name}.pdf"
                     if not pathlib.Path(output_path).exists():
                         asyncio.run(url_to_pdf(reference, output_path))
-                    
-                    json_data[rule_id]["reference"].append({
-                        "url": reference,
-                        "pdf": output_path}
-                        )
 
-    create_json(json_data,"references.json")
-    create_md(json_data,"references.md")
+                    json_data[rule_id]["reference"].append(
+                        {"url": reference, "pdf": output_path}
+                    )
+
+    create_json(json_data, "references.json")
+    create_json(url_data, "site.json")
+    create_md(json_data, "references")
+
 
 if __name__ == "__main__":
     if not pathlib.Path("pdf").exists():
