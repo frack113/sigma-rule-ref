@@ -1819,7 +1819,7 @@ Rule id : d2e3f2f6-7e09-4bf2-bc5d-90186809e7fb
 
 
 ## posh_ps_send_mailmessage
-Title : Powershell Exfiltration Over SMTP
+Title : Potential Data Exfiltration Over SMTP Via Send-MailMessage Cmdlet
 
 Rule id : 9a7afa56-4762-43eb-807d-c3dc9ffe211b
 
@@ -3712,7 +3712,7 @@ Rule id : 72f4ab3f-787d-495d-a55d-68c2ff46cf4c
 
 
 ## proc_creation_lnx_python_pty_spawn
-Title : Python Spawning Pretty TTY
+Title : Python Spawning Pretty TTY Via PTY Module
 
 Rule id : c4042d54-110d-45dd-a0e1-05c47822c937
 
@@ -3722,13 +3722,12 @@ Rule id : c4042d54-110d-45dd-a0e1-05c47822c937
 
 
 ## proc_creation_lnx_python_reverse_shell
-Title : Potential Python Reverse Shell
+Title : Python Reverse Shell Execution Via PTY And Socket Modules
 
 Rule id : 32e62bc7-3de0-4bb1-90af-532978fe42c0
 
 | Url | Pdf |
 | --- | --- |
-| https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet | [pdf/50e48a5c842a76253be0df1a7da5662d015758c2b4f05687ca7fb39761fbddfe.pdf](pdf/50e48a5c842a76253be0df1a7da5662d015758c2b4f05687ca7fb39761fbddfe.pdf) |
 | https://www.revshells.com/ | [pdf/1f3b6e111f56509d1383c416e7fd970adeed47f2281686304a9efcd06abdaf0c.pdf](pdf/1f3b6e111f56509d1383c416e7fd970adeed47f2281686304a9efcd06abdaf0c.pdf) |
 
 

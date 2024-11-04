@@ -2354,6 +2354,31 @@ Rule id : 90f342e1-1aaa-4e43-b092-39fda57ed11e
 | http://redplait.blogspot.com/2020/07/whats-wrong-with-etw.html | [pdf/dd8fe903c4328075e9a7ed4d262073f7b4eff51f421506369d39abd62be61624.pdf](pdf/dd8fe903c4328075e9a7ed4d262073f7b4eff51f421506369d39abd62be61624.pdf) |
 
 
+## registry_set_runmru_command_execution
+Title : Command Executed Via Run Dialog Box - Registry
+
+Rule id : f9d091f6-f1c7-4873-a24f-050b4a02b4dd
+
+| Url | Pdf |
+| --- | --- |
+| https://www.forensafe.com/blogs/runmrukey.html | [pdf/32a35086bd3bf03d6f7f50ef5b92400a42ce092b02764a4b78d9ad3ceb57bc99.pdf](pdf/32a35086bd3bf03d6f7f50ef5b92400a42ce092b02764a4b78d9ad3ceb57bc99.pdf) |
+| https://medium.com/@shaherzakaria8/downloading-trojan-lumma-infostealer-through-capatcha-1f25255a0e71 | [pdf/cf1b1dc3f326ee29503efe09f1c326266d6867993855224d5fc48b7763260904.pdf](pdf/cf1b1dc3f326ee29503efe09f1c326266d6867993855224d5fc48b7763260904.pdf) |
+| https://redcanary.com/blog/threat-intelligence/intelligence-insights-october-2024/ | [pdf/0f03329d999a701c0f2d73c03749d0e33ce5c8ca1c9c06d8e8906f81461666c5.pdf](pdf/0f03329d999a701c0f2d73c03749d0e33ce5c8ca1c9c06d8e8906f81461666c5.pdf) |
+
+
+## registry_set_runmru_susp_command_execution
+Title : Potentially Suspicious Command Executed Via Run Dialog Box - Registry
+
+Rule id : a7df0e9e-91a5-459a-a003-4cde67c2ff5d
+
+| Url | Pdf |
+| --- | --- |
+| https://medium.com/@ahmed.moh.farou2/fake-captcha-campaign-on-arabic-pirated-movie-sites-delivers-lumma-stealer-4f203f7adabf | [pdf/20172e493a1645b935f2d674a485e268a6cc0e108491da7e60517adca4c26718.pdf](pdf/20172e493a1645b935f2d674a485e268a6cc0e108491da7e60517adca4c26718.pdf) |
+| https://medium.com/@shaherzakaria8/downloading-trojan-lumma-infostealer-through-capatcha-1f25255a0e71 | [pdf/cf1b1dc3f326ee29503efe09f1c326266d6867993855224d5fc48b7763260904.pdf](pdf/cf1b1dc3f326ee29503efe09f1c326266d6867993855224d5fc48b7763260904.pdf) |
+| https://www.forensafe.com/blogs/runmrukey.html | [pdf/32a35086bd3bf03d6f7f50ef5b92400a42ce092b02764a4b78d9ad3ceb57bc99.pdf](pdf/32a35086bd3bf03d6f7f50ef5b92400a42ce092b02764a4b78d9ad3ceb57bc99.pdf) |
+| https://redcanary.com/blog/threat-intelligence/intelligence-insights-october-2024/ | [pdf/0f03329d999a701c0f2d73c03749d0e33ce5c8ca1c9c06d8e8906f81461666c5.pdf](pdf/0f03329d999a701c0f2d73c03749d0e33ce5c8ca1c9c06d8e8906f81461666c5.pdf) |
+
+
 ## registry_set_scr_file_executed_by_rundll32
 Title : ScreenSaver Registry Key Set
 
