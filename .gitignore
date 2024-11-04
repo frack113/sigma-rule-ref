@@ -1,3 +1,6 @@
+# internal tool
+clean_pdf.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

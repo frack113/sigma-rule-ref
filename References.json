@@ -9284,15 +9284,11 @@
     "32e62bc7-3de0-4bb1-90af-532978fe42c0": {
         "reference": [
             {
-                "pdf": "pdf/50e48a5c842a76253be0df1a7da5662d015758c2b4f05687ca7fb39761fbddfe.pdf",
-                "url": "https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet"
-            },
-            {
                 "pdf": "pdf/1f3b6e111f56509d1383c416e7fd970adeed47f2281686304a9efcd06abdaf0c.pdf",
                 "url": "https://www.revshells.com/"
             }
         ],
-        "title": "Potential Python Reverse Shell",
+        "title": "Python Reverse Shell Execution Via PTY And Socket Modules",
         "yaml": "proc_creation_lnx_python_reverse_shell"
     },
     "33339be3-148b-4e16-af56-ad16ec6c7e7b": {
@@ -13791,6 +13787,10 @@
             {
                 "pdf": "pdf/3fb111f21635c7a3ad9d759a8a70cd58b11edb9c14beb910ab66ba53187dd7f5.pdf",
                 "url": "https://www.virustotal.com/gui/file/69fe77dd558e281621418980040e2af89a2547d377d0f2875502005ce22bc95c"
+            },
+            {
+                "pdf": "pdf/60987822a9996af2186e04456b266539fd38c156ff6d124edd0eabca418f41c6.pdf",
+                "url": "https://www.virustotal.com/gui/file/6f0f20da34396166df352bf301b3c59ef42b0bc67f52af3d541b0161c47ede05"
             }
         ],
         "title": "Antivirus Ransomware Detection",
@@ -27919,7 +27919,7 @@
                 "url": "https://www.ietf.org/rfc/rfc2821.txt"
             }
         ],
-        "title": "Powershell Exfiltration Over SMTP",
+        "title": "Potential Data Exfiltration Over SMTP Via Send-MailMessage Cmdlet",
         "yaml": "posh_ps_send_mailmessage"
     },
     "9aa01d62-7667-4d3b-acb8-8cb5103e2014": {
@@ -30590,6 +30590,28 @@
         ],
         "title": "Potential CVE-2022-26809 Exploitation Attempt",
         "yaml": "proc_creation_win_exploit_cve_2022_26809_rpcss_child_process_anomaly"
+    },
+    "a7df0e9e-91a5-459a-a003-4cde67c2ff5d": {
+        "reference": [
+            {
+                "pdf": "pdf/20172e493a1645b935f2d674a485e268a6cc0e108491da7e60517adca4c26718.pdf",
+                "url": "https://medium.com/@ahmed.moh.farou2/fake-captcha-campaign-on-arabic-pirated-movie-sites-delivers-lumma-stealer-4f203f7adabf"
+            },
+            {
+                "pdf": "pdf/cf1b1dc3f326ee29503efe09f1c326266d6867993855224d5fc48b7763260904.pdf",
+                "url": "https://medium.com/@shaherzakaria8/downloading-trojan-lumma-infostealer-through-capatcha-1f25255a0e71"
+            },
+            {
+                "pdf": "pdf/32a35086bd3bf03d6f7f50ef5b92400a42ce092b02764a4b78d9ad3ceb57bc99.pdf",
+                "url": "https://www.forensafe.com/blogs/runmrukey.html"
+            },
+            {
+                "pdf": "pdf/0f03329d999a701c0f2d73c03749d0e33ce5c8ca1c9c06d8e8906f81461666c5.pdf",
+                "url": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-october-2024/"
+            }
+        ],
+        "title": "Potentially Suspicious Command Executed Via Run Dialog Box - Registry",
+        "yaml": "registry_set_runmru_susp_command_execution"
     },
     "a7e6b1f9-8d2c-4f1e-9a7d-63e4c8a2bf4c": {
         "reference": [
@@ -35779,7 +35801,7 @@
                 "url": "https://www.volexity.com/blog/2022/06/02/zero-day-exploitation-of-atlassian-confluence/"
             }
         ],
-        "title": "Python Spawning Pretty TTY",
+        "title": "Python Spawning Pretty TTY Via PTY Module",
         "yaml": "proc_creation_lnx_python_pty_spawn"
     },
     "c408acfe-2870-41df-8d2f-9f4daa4555ed": {
@@ -44901,6 +44923,24 @@
         "title": "Uncommon Microsoft Office Trusted Location Added",
         "yaml": "registry_set_office_trusted_location_uncommon"
     },
+    "f748c45a-f8d3-4e6f-b617-fe176f695b8f": {
+        "reference": [
+            {
+                "pdf": "pdf/59f0c86678783db48b38ef9bf709ddb23af2b926f6a1152b54e11b6f112da8bd.pdf",
+                "url": "https://thecyberexpress.com/rogue-rdp-files-used-in-ukraine-cyberattacks/"
+            },
+            {
+                "pdf": "pdf/42da08f2694dbad8af81281fa3ccc83a44891c13bb56134ca54098127977c222.pdf",
+                "url": "https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/"
+            },
+            {
+                "pdf": "pdf/71abe10b4df5c411ed5bcd7c0ba5539df94dd490f8063f8b62426dfd49be6bef.pdf",
+                "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7257437202706493443?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7257437202706493443%2C7257522819985543168%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287257522819985543168%2Curn%3Ali%3AugcPost%3A7257437202706493443%29"
+            }
+        ],
+        "title": ".RDP File Created by Outlook Process",
+        "yaml": "file_event_win_office_outlook_rdp_file_creation"
+    },
     "f7536642-4a08-4dd9-b6d5-c3286d8975ed": {
         "reference": [],
         "title": "Potential SNAKE Malware Persistence Service Execution",
@@ -45302,6 +45342,24 @@
         ],
         "title": "Potential Linux Amazon SSM Agent Hijacking",
         "yaml": "proc_creation_lnx_ssm_agent_abuse"
+    },
+    "f9d091f6-f1c7-4873-a24f-050b4a02b4dd": {
+        "reference": [
+            {
+                "pdf": "pdf/32a35086bd3bf03d6f7f50ef5b92400a42ce092b02764a4b78d9ad3ceb57bc99.pdf",
+                "url": "https://www.forensafe.com/blogs/runmrukey.html"
+            },
+            {
+                "pdf": "pdf/cf1b1dc3f326ee29503efe09f1c326266d6867993855224d5fc48b7763260904.pdf",
+                "url": "https://medium.com/@shaherzakaria8/downloading-trojan-lumma-infostealer-through-capatcha-1f25255a0e71"
+            },
+            {
+                "pdf": "pdf/0f03329d999a701c0f2d73c03749d0e33ce5c8ca1c9c06d8e8906f81461666c5.pdf",
+                "url": "https://redcanary.com/blog/threat-intelligence/intelligence-insights-october-2024/"
+            }
+        ],
+        "title": "Command Executed Via Run Dialog Box - Registry",
+        "yaml": "registry_set_runmru_command_execution"
     },
     "f9df325d-d7bc-4a32-8a1a-2cc61dcefc63": {
         "reference": [
@@ -45922,7 +45980,7 @@
                 "url": "https://web.archive.org/web/20230726144748/https://blog.thickmints.dev/mintsights/detecting-rogue-rdp/"
             }
         ],
-        "title": "RDP File Creation From Suspicious Application",
+        "title": ".RDP File Created By Uncommon Application",
         "yaml": "file_event_win_rdp_file_susp_creation"
     },
     "fcddca7c-b9c0-4ddf-98da-e1e2d18b0157": {

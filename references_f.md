@@ -1539,6 +1539,18 @@ Rule id : c3edc6a5-d9d4-48d8-930e-aab518390917
 | https://www.slipstick.com/developer/custom-form/clean-outlooks-forms-cache/ | [pdf/d8d685fa47cd32ff25c4c1cd553a3970872d597f0734afe6f59f91f1594ecf14.pdf](pdf/d8d685fa47cd32ff25c4c1cd553a3970872d597f0734afe6f59f91f1594ecf14.pdf) |
 
 
+## file_event_win_office_outlook_rdp_file_creation
+Title : .RDP File Created by Outlook Process
+
+Rule id : f748c45a-f8d3-4e6f-b617-fe176f695b8f
+
+| Url | Pdf |
+| --- | --- |
+| https://thecyberexpress.com/rogue-rdp-files-used-in-ukraine-cyberattacks/ | [pdf/59f0c86678783db48b38ef9bf709ddb23af2b926f6a1152b54e11b6f112da8bd.pdf](pdf/59f0c86678783db48b38ef9bf709ddb23af2b926f6a1152b54e11b6f112da8bd.pdf) |
+| https://www.microsoft.com/en-us/security/blog/2024/10/29/midnight-blizzard-conducts-large-scale-spear-phishing-campaign-using-rdp-files/ | [pdf/42da08f2694dbad8af81281fa3ccc83a44891c13bb56134ca54098127977c222.pdf](pdf/42da08f2694dbad8af81281fa3ccc83a44891c13bb56134ca54098127977c222.pdf) |
+| https://www.linkedin.com/feed/update/urn:li:ugcPost:7257437202706493443?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7257437202706493443%2C7257522819985543168%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287257522819985543168%2Curn%3Ali%3AugcPost%3A7257437202706493443%29 | [pdf/71abe10b4df5c411ed5bcd7c0ba5539df94dd490f8063f8b62426dfd49be6bef.pdf](pdf/71abe10b4df5c411ed5bcd7c0ba5539df94dd490f8063f8b62426dfd49be6bef.pdf) |
+
+
 ## file_event_win_office_outlook_susp_macro_creation
 Title : Suspicious Outlook Macro Created
 
@@ -1740,7 +1752,7 @@ Rule id : 34986307-b7f4-49be-92f3-e7a4d01ac5db
 
 
 ## file_event_win_rdp_file_susp_creation
-Title : RDP File Creation From Suspicious Application
+Title : .RDP File Created By Uncommon Application
 
 Rule id : fccfb43e-09a7-4bd2-8b37-a5a7df33386d
 

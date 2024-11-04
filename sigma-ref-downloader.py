@@ -96,7 +96,9 @@ def get_site(reference: str) -> str:
 
 click_me = {
     "learn.microsoft.com": ['//*[@id="wcpConsentBannerCtrl"]/div[2]/button[1]','//*[@id="banner-holder"]/section/button'],
-    "app.any.run": ['//*[@id="cc-main"]/div[1]/div/div[2]/div[2]/div[1]/button[1]']
+    "app.any.run": ['//*[@id="cc-main"]/div[1]/div/div[2]/div[2]/div[1]/button[1]'],
+    "redcanary.com":['//*[@id="onetrust-accept-btn-handler"]'],
+    "medium.com":['//*[@id="root"]/div/div[3]/div[2]/div[4]/div/div/div/div[1]/div[1]/div/button/svg/path']
 }
 
 wait_more = ["app.any.run"]
