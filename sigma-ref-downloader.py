@@ -13,6 +13,7 @@ import click
 import json
 import string
 import re
+import time
 
 sigmahq_folder = [
     "rules",
@@ -91,12 +92,19 @@ footer = """
 
 def get_site(reference: str) -> str:
     match = re.search(r"https?://([^/]*)", reference)
-    return match.group()
+    return match.group(1)
 
+click_me = {
+    "learn.microsoft.com": ['//*[@id="wcpConsentBannerCtrl"]/div[2]/button[1]','//*[@id="banner-holder"]/section/button'],
+    "app.any.run": ['//*[@id="cc-main"]/div[1]/div/div[2]/div[2]/div[1]/button[1]']
+}
+
+wait_more = ["app.any.run"]
 
 async def url_to_pdf(url, output_path):
+    site = get_site(url)
     async with async_playwright() as p:
-        browser = await p.chromium.launch()
+        browser = await p.chromium.launch(headless=False)
         page = await browser.new_page()
         try:
             await page.goto(url=url, timeout=0, wait_until="load")
@@ -105,6 +113,15 @@ async def url_to_pdf(url, output_path):
             if await page.locator("#hs-eu-confirmation-button").is_visible():
                 await page.locator("#hs-eu-confirmation-button").click(timeout=2000)
 
+            if site in click_me:
+                for xpath in click_me[site]:
+                    if await page.locator(xpath).is_visible():
+                        await page.locator(xpath).click(timeout=2000)
+
+            #as it take time to full load
+            if site in wait_more:
+                time.sleep(10)
+            
             await page.emulate_media(media="screen")
             await page.pdf(
                 path=output_path,
