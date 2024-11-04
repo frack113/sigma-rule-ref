@@ -4,7 +4,7 @@
 import pathlib
 import json
 
-remove = "https://www.huntress.com"
+remove = "https://app.any.run/"
 
 with open("References.json", "r", encoding="UTF-8") as file:
     data = json.load(file)

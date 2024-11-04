@@ -4,12 +4,15 @@ The SigmaHQ rule's reference as PDF
 ## Use
 `python sigma-ref-downloader.py **path_to_sigmahq_folder**`
 
+Warning, need to open chronium or some site don't load.
+Expect mamy popup ...
+
 ## Todo
 - [ ] download pdf link
-- [ ] manage General Data Protection Regulation
+- [X] manage General Data Protection Regulation
 - [ ] remove pdf without ref
 - [ ] manage web error
-  - [ ] Timeout
+  - [X] Timeout
   - [ ] ERR_ABORTED
   - [ ] ERR_NAME_NOT_RESOLVED
   - [ ] ERR_CERT_COMMON_NAME_INVALID
