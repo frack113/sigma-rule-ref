@@ -544,6 +544,18 @@ Rule id : 50e54b8d-ad73-43f8-96a1-5191685b17a4
 | https://www.blackhillsinfosec.com/my-first-joyride-with-silenttrinity/ | [pdf/1ee93f80d7449425f23e2a1a22fa6b2f4dd2ec8deec0fcf7ebbd4611387ee29c.pdf](pdf/1ee93f80d7449425f23e2a1a22fa6b2f4dd2ec8deec0fcf7ebbd4611387ee29c.pdf) |
 
 
+## net_connection_win_susp_azurefd_connection
+Title : Potentially Suspicious Azure Front Door Connection
+
+Rule id : 8cb4d14e-776e-43c2-8fb9-91e7fcea32b4
+
+| Url | Pdf |
+| --- | --- |
+| https://lots-project.com/site/2a2e617a75726566642e6e6574 | [pdf/18fb382b33216dc3354ff71aa287af76d3e56a3a228bd5bf3df6bb007e3d7fe1.pdf](pdf/18fb382b33216dc3354ff71aa287af76d3e56a3a228bd5bf3df6bb007e3d7fe1.pdf) |
+| https://medium.com/r3d-buck3t/red-teaming-in-cloud-leverage-azure-frontdoor-cdn-for-c2-redirectors-79dd9ca98178 | [pdf/6fe195bd81ce42ca16159a38b96d3dfed392b26fc65660e5afff0c496b3a2b7c.pdf](pdf/6fe195bd81ce42ca16159a38b96d3dfed392b26fc65660e5afff0c496b3a2b7c.pdf) |
+| https://www.fortalicesolutions.com/posts/hiding-behind-the-front-door-with-azure-domain-fronting | [pdf/2c75cfb738cb125399d48a3c1693e0c03ba5454039d4b25445dcf693f1841f1a.pdf](pdf/2c75cfb738cb125399d48a3c1693e0c03ba5454039d4b25445dcf693f1841f1a.pdf) |
+
+
 ## net_connection_win_susp_binary_no_cmdline
 Title : Suspicious Network Connection Binary No CommandLine
 

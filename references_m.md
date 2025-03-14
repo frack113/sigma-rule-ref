@@ -33,6 +33,17 @@ Rule id : 0f2468a2-5055-4212-a368-7321198ee706
 | https://learn.microsoft.com/en-us/defender-cloud-apps/policy-template-reference | [pdf/e3053a4c9858ab09a1601fe5cab08e6044544189f367dd1c4d0e3c75f7b48a69.pdf](pdf/e3053a4c9858ab09a1601fe5cab08e6044544189f367dd1c4d0e3c75f7b48a69.pdf) |
 
 
+## microsoft365_bypass_conditional_access
+Title : Azure Login Bypassing Conditional Access Policies
+
+Rule id : 13f2d3f5-6497-44a7-bf5f-dc13ffafe5dc
+
+| Url | Pdf |
+| --- | --- |
+| https://labs.jumpsec.com/tokensmith-bypassing-intune-compliant-device-conditional-access/ | [pdf/8434f7289cd86b7b59deb8e435b0591268bc09bce0ab4554c61e7ff197dbcdbc.pdf](pdf/8434f7289cd86b7b59deb8e435b0591268bc09bce0ab4554c61e7ff197dbcdbc.pdf) |
+| https://github.com/JumpsecLabs/TokenSmith | [pdf/876e0378ce8969e8f2d172a2a669220259c1e03e8d688962e9e60fee4efc4fad.pdf](pdf/876e0378ce8969e8f2d172a2a669220259c1e03e8d688962e9e60fee4efc4fad.pdf) |
+
+
 ## microsoft365_data_exfiltration_to_unsanctioned_app
 Title : Data Exfiltration to Unsanctioned Apps
 

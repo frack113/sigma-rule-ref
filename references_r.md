@@ -396,6 +396,7 @@ Rule id : d67572a0-e2ec-45d6-b8db-c100d14b8ef2
 | Url | Pdf |
 | --- | --- |
 | https://web.archive.org/web/20171113231705/https://www.optiv.com/blog/post-exploitation-using-netntlm-downgrade-attacks | [pdf/83795f9237a42a6012f0f6b36529acc4b502e0e94651828cb7728ff370f7063e.pdf](pdf/83795f9237a42a6012f0f6b36529acc4b502e0e94651828cb7728ff370f7063e.pdf) |
+| https://www.ultimatewindowssecurity.com/wiki/page.aspx?spid=NSrpcservers | [pdf/e6e34b5a74520be3d14022e9cb0021e32625f050599954e1c8bf85175eebb560.pdf](pdf/e6e34b5a74520be3d14022e9cb0021e32625f050599954e1c8bf85175eebb560.pdf) |
 
 
 ## registry_event_new_dll_added_to_appcertdlls_registry_key
@@ -1201,6 +1202,18 @@ Rule id : e1aa95de-610a-427d-b9e7-9b46cfafbe6a
 | --- | --- |
 | https://thedfirreport.com/2021/10/18/icedid-to-xinglocker-ransomware-in-24-hours/ | [pdf/6a94e558703caf2eea4d652776e7615772d53c7580eded94cae24d996e29beb7.pdf](pdf/6a94e558703caf2eea4d652776e7615772d53c7580eded94cae24d996e29beb7.pdf) |
 | https://gist.github.com/anadr/7465a9fde63d41341136949f14c21105 | [pdf/fe3d6aed03593df819fb74a77ce06430ed9c2feb33d2cd27eb8e302d20f0c1bc.pdf](pdf/fe3d6aed03593df819fb74a77ce06430ed9c2feb33d2cd27eb8e302d20f0c1bc.pdf) |
+
+
+## registry_set_disable_windows_event_log_access
+Title : Windows Event Log Access Tampering Via Registry
+
+Rule id : ba226dcf-d390-4642-b9af-b534872f1156
+
+| Url | Pdf |
+| --- | --- |
+| https://www.atomicredteam.io/atomic-red-team/atomics/T1562.002#atomic-test-8---modify-event-log-channel-access-permissions-via-registry---powershell | [pdf/2707e9671aba6f75adc5a94b6de903acad12b49ae8ac9f0fdd2f0da21048aff4.pdf](pdf/2707e9671aba6f75adc5a94b6de903acad12b49ae8ac9f0fdd2f0da21048aff4.pdf) |
+| https://www.youtube.com/watch?v=uSYvHUVU8xY | [pdf/d3e26aabc51d2dc5270e98977ef625af236a7ab66e6cb033b3f858f9760f350c.pdf](pdf/d3e26aabc51d2dc5270e98977ef625af236a7ab66e6cb033b3f858f9760f350c.pdf) |
+| https://learn.microsoft.com/en-us/windows/win32/secauthz/security-descriptor-definition-language | [pdf/79a603245959e8c4723525c94994afac7b15f3429011d816f4d82a6ab49fbcb8.pdf](pdf/79a603245959e8c4723525c94994afac7b15f3429011d816f4d82a6ab49fbcb8.pdf) |
 
 
 ## registry_set_disable_windows_firewall
@@ -2013,6 +2026,8 @@ Rule id : 790317c0-0a36-4a6a-a105-6e576bf99a14
 | https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits/ (idea) | [pdf/bc5fa202ef7ac4251eda4349a2a99273690a589bc112f5db53570e4325bf5bf6.pdf](pdf/bc5fa202ef7ac4251eda4349a2a99273690a589bc112f5db53570e4325bf5bf6.pdf) |
 | https://unit42.paloaltonetworks.com/snipbot-romcom-malware-variant/ | [pdf/68ca989a3256565aca6e630c016f023811c7822cad6eb97b8f8bfe668cce2235.pdf](pdf/68ca989a3256565aca6e630c016f023811c7822cad6eb97b8f8bfe668cce2235.pdf) |
 | https://blog.talosintelligence.com/uat-5647-romcom/ | [pdf/1be69327db7d6021f6b56113cffc482f957a47ec2bb7e93264d4fad9eef836fd.pdf](pdf/1be69327db7d6021f6b56113cffc482f957a47ec2bb7e93264d4fad9eef836fd.pdf) |
+| https://global.ptsecurity.com/analytics/pt-esc-threat-intelligence/darkhotel-a-cluster-of-groups-united-by-common-techniques | [pdf/2c5e01350272196afe1912b5a9f31414f33b69ca2d409c07cf55dd9c900509fd.pdf](pdf/2c5e01350272196afe1912b5a9f31414f33b69ca2d409c07cf55dd9c900509fd.pdf) |
+| https://threatbook.io/blog/Analysis-of-APT-C-60-Attack-on-South-Korea | [pdf/6ee96ef4d87019757b44ae74c48d1e2b9c3ebf7697375f15908827ac77255caa.pdf](pdf/6ee96ef4d87019757b44ae74c48d1e2b9c3ebf7697375f15908827ac77255caa.pdf) |
 
 
 ## registry_set_persistence_comhijack_psfactorybuffer

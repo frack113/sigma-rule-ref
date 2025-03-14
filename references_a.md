@@ -260,6 +260,16 @@ Rule id : 20f754db-d025-4a8f-9d74-e0037e999a9a
 | https://unit42.paloaltonetworks.com/compromised-cloud-compute-credentials/ | [pdf/5aadea93ddc4447124df41281361efb0f937a47f8eedcf1a605019a41cdfa3ca.pdf](pdf/5aadea93ddc4447124df41281361efb0f937a47f8eedcf1a605019a41cdfa3ca.pdf) |
 
 
+## aws_delete_saml_provider
+Title : AWS SAML Provider Deletion Activity
+
+Rule id : ccd6a6c8-bb4e-4a91-9d2a-07e632819374
+
+| Url | Pdf |
+| --- | --- |
+| https://docs.aws.amazon.com/IAM/latest/APIReference/API_DeleteSAMLProvider.html | [pdf/c6e7e48a4587face692f4f4ebc99d549142e8bab88a21ef1dd5d69f8e79b8ffd.pdf](pdf/c6e7e48a4587face692f4f4ebc99d549142e8bab88a21ef1dd5d69f8e79b8ffd.pdf) |
+
+
 ## aws_disable_bucket_versioning
 Title : AWS S3 Bucket Versioning Disable
 
@@ -278,6 +288,16 @@ Rule id : 16124c2d-e40b-4fcc-8f2c-5ab7870a2223
 | Url | Pdf |
 | --- | --- |
 | https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DisableEbsEncryptionByDefault.html | [pdf/6a1b6253721f549c30cb04d7a91193d0cab1a5c93bf2d44692ee3d9eba100883.pdf](pdf/6a1b6253721f549c30cb04d7a91193d0cab1a5c93bf2d44692ee3d9eba100883.pdf) |
+
+
+## aws_ec2_import_key_pair_activity
+Title : AWS Key Pair Import Activity
+
+Rule id : 92f84194-8d9a-4ee0-8699-c30bfac59780
+
+| Url | Pdf |
+| --- | --- |
+| https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_ImportKeyPair.html | [pdf/c2aaf4b437b6a7b06aa145345f1b236ede11ef67c38d1cb9f376c03dcd74669d.pdf](pdf/c2aaf4b437b6a7b06aa145345f1b236ede11ef67c38d1cb9f376c03dcd74669d.pdf) |
 
 
 ## aws_ec2_startup_script_change
@@ -424,6 +444,18 @@ Rule id : db014773-d9d9-4792-91e5-133337c0ffee
 | https://permiso.io/blog/s/unmasking-guivil-new-cloud-threat-actor | [pdf/e6466e978457f14c3785ebc0ced639e1400045917b4317c9267f00f638c156c5.pdf](pdf/e6466e978457f14c3785ebc0ced639e1400045917b4317c9267f00f638c156c5.pdf) |
 
 
+## aws_lambda_function_url
+Title : New AWS Lambda Function URL Configuration Created
+
+Rule id : ec541962-c05a-4420-b9ea-84de072d18f4
+
+| Url | Pdf |
+| --- | --- |
+| https://docs.aws.amazon.com/lambda/latest/dg/API_CreateFunctionUrlConfig.html | [pdf/b0180e753f383a36fad31e6d7c8f48074970270af52b893f495e486ad4007881.pdf](pdf/b0180e753f383a36fad31e6d7c8f48074970270af52b893f495e486ad4007881.pdf) |
+| https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-privilege-escalation/aws-lambda-privesc | [pdf/c81f79b86a00e0c19a9cc7a74ec1da9372c7d60355cb30d3ef521b7eddf918bd.pdf](pdf/c81f79b86a00e0c19a9cc7a74ec1da9372c7d60355cb30d3ef521b7eddf918bd.pdf) |
+| https://www.wiz.io/blog/how-to-set-secure-defaults-on-aws | [pdf/60ce5a9887708074a10c947bed4b29f81f550529c5fdccfc13bc606abc98bd03.pdf](pdf/60ce5a9887708074a10c947bed4b29f81f550529c5fdccfc13bc606abc98bd03.pdf) |
+
+
 ## aws_passed_role_to_glue_development_endpoint
 Title : AWS Glue Development Endpoint Activity
 
@@ -443,6 +475,18 @@ Rule id : 8a63cdd4-6207-414a-85bc-7e032bd3c1a2
 | Url | Pdf |
 | --- | --- |
 | https://github.com/RhinoSecurityLabs/pacu/blob/866376cd711666c775bbfcde0524c817f2c5b181/pacu/modules/rds__explore_snapshots/main.py | [pdf/9795318c5a61304f9ff13657e8b1e003d1a7c05e20fdfe8410ffebd6ff7cb07d.pdf](pdf/9795318c5a61304f9ff13657e8b1e003d1a7c05e20fdfe8410ffebd6ff7cb07d.pdf) |
+
+
+## aws_rds_dbcluster_actions
+Title : Modification or Deletion of an AWS RDS Cluster
+
+Rule id : 457cc9ac-d8e6-4d1d-8c0e-251d0f11a74c
+
+| Url | Pdf |
+| --- | --- |
+| https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_ModifyDBCluster.html | [pdf/61f512bc8273e54b718d483f56cf10a579b17b2357a2d219d510625b69adff19.pdf](pdf/61f512bc8273e54b718d483f56cf10a579b17b2357a2d219d510625b69adff19.pdf) |
+| https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DeleteDBCluster.html | [pdf/bae53b02154f364607570f54f2aef0cc86dce9c29faa648f5232727a31f54aa4.pdf](pdf/bae53b02154f364607570f54f2aef0cc86dce9c29faa648f5232727a31f54aa4.pdf) |
+| https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-privilege-escalation/aws-rds-privesc#rds-modifydbinstance | [pdf/d0ae46f4e1c6eb00326ecee9e87f57d5965a7c9d72d3c76b8c168b830e60468b.pdf](pdf/d0ae46f4e1c6eb00326ecee9e87f57d5965a7c9d72d3c76b8c168b830e60468b.pdf) |
 
 
 ## aws_rds_public_db_restore
@@ -962,7 +1006,7 @@ Rule id : 5aecf3d5-f8a0-48e7-99be-3a759df7358f
 
 
 ## azure_app_role_added
-Title : App Role Added
+Title : App Assigned To Azure RBAC/Microsoft Entra Role
 
 Rule id : b04934b2-0a68-4845-8a19-bdfed3a68a7a
 

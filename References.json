@@ -316,6 +316,10 @@
             {
                 "pdf": "pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf",
                 "url": "https://github.com/adrecon/AzureADRecon"
+            },
+            {
+                "pdf": "pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf",
+                "url": "https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1"
             }
         ],
         "title": "Malicious PowerShell Commandlets - ProcessCreation",
@@ -1158,6 +1162,10 @@
             {
                 "pdf": "pdf/c974f4ee24da1d43205e7e0d03f309ffddf6579eec8899597d1534323ca83515.pdf",
                 "url": "https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1219/T1219.md#atomic-test-2---anydesk-files-detected-test-on-windows"
+            },
+            {
+                "pdf": "pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf",
+                "url": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"
             }
         ],
         "title": "Remote Access Tool - Anydesk Execution From Suspicious Folder",
@@ -3697,6 +3705,20 @@
         "title": "Potentially Suspicious Shell Script Creation in Profile Folder",
         "yaml": "file_event_lnx_susp_shell_script_under_profile_directory"
     },
+    "13f2d3f5-6497-44a7-bf5f-dc13ffafe5dc": {
+        "reference": [
+            {
+                "pdf": "pdf/8434f7289cd86b7b59deb8e435b0591268bc09bce0ab4554c61e7ff197dbcdbc.pdf",
+                "url": "https://labs.jumpsec.com/tokensmith-bypassing-intune-compliant-device-conditional-access/"
+            },
+            {
+                "pdf": "pdf/876e0378ce8969e8f2d172a2a669220259c1e03e8d688962e9e60fee4efc4fad.pdf",
+                "url": "https://github.com/JumpsecLabs/TokenSmith"
+            }
+        ],
+        "title": "Azure Login Bypassing Conditional Access Policies",
+        "yaml": "microsoft365_bypass_conditional_access"
+    },
     "13f81a90-a69c-4fab-8f07-b5bb55416a9f": {
         "reference": [
             {
@@ -4364,6 +4386,28 @@
         "title": "Suspicious New Service Creation",
         "yaml": "proc_creation_win_susp_service_creation"
     },
+    "17ce9373-2163-4a2c-90ba-f91e9ef7a8c1": {
+        "reference": [
+            {
+                "pdf": "pdf/fbb63a341cc1cb2e609074b904bb66c5356795d7911d840adb0a42a722601d99.pdf",
+                "url": "https://thehackernews.com/2024/12/cisa-and-fbi-raise-alerts-on-exploited.html"
+            },
+            {
+                "pdf": "pdf/2793a96eafe8fe2537e8b9f486393ea5451529293f8df8aaa36d7c22015cc15e.pdf",
+                "url": "https://github.com/varwara/CVE-2024-35250"
+            },
+            {
+                "pdf": "pdf/20a61f9562437b548702332a40202ec6f5813808fc758e30d04e8c8a98b0a6c7.pdf",
+                "url": "https://devco.re/blog/2024/08/23/streaming-vulnerabilities-from-windows-kernel-proxying-to-kernel-part1-en/"
+            },
+            {
+                "pdf": "pdf/18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0.pdf",
+                "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+            }
+        ],
+        "title": "Potential CVE-2024-35250 Exploitation Activity",
+        "yaml": "image_load_exploit_cve_2024_35250_privilege_escalation"
+    },
     "17d619c1-e020-4347-957e-1d1207455c93": {
         "reference": [
             {
@@ -4853,6 +4897,28 @@
         ],
         "title": "Suspicious Download Via Certutil.EXE",
         "yaml": "proc_creation_win_certutil_download"
+    },
+    "19b3806e-46f2-4b4c-9337-e3d8653245ea": {
+        "reference": [
+            {
+                "pdf": "pdf/ef3c4cb345657dee8a1a0e8fcd1a0395fe5273549a44420124ec23f6ba5e96f7.pdf",
+                "url": "https://www.virustotal.com/gui/search/behaviour_processes%253A%2522C%253A%255C%255CWindows%255C%255CSysWOW64%255C%255Cmore.com%2522%2520behaviour_processes%253A%2522C%253A%255C%255CWindows%255C%255CMicrosoft.NET%255C%255CFramework%255C%255Cv4.0.30319%255C%255Cvbc.exe%2522/files"
+            },
+            {
+                "pdf": "pdf/225f01e1946ab70bbe949df86e5d6e622ee27ae050e1517d18a9221a229fe2e4.pdf",
+                "url": "https://www.virustotal.com/gui/file/14d886517fff2cc8955844b252c985ab59f2f95b2849002778f03a8f07eb8aef"
+            },
+            {
+                "pdf": "pdf/c3d13d9b41b2697b36e57d9f60f2b787b6b23173f68ec35c28181f088bf46b26.pdf",
+                "url": "https://strontic.github.io/xcyclopedia/library/more.com-EDB3046610020EE614B5B81B0439895E.html"
+            },
+            {
+                "pdf": "pdf/b2c55bb9b612835fece24ee4c1dbeb220c7bc1e813a589d3a7cabcf0de525e96.pdf",
+                "url": "https://strontic.github.io/xcyclopedia/library/vbc.exe-A731372E6F6978CE25617AE01B143351.html"
+            }
+        ],
+        "title": "Lummac Stealer Activity - Execution Of More.com And Vbc.exe",
+        "yaml": "proc_creation_win_malware_lummac_more_vbc"
     },
     "19bf6fdb-7721-4f3d-867f-53467f6a5db6": {
         "reference": [
@@ -5588,6 +5654,36 @@
         ],
         "title": "Azure AD Health Service Agents Registry Keys Access",
         "yaml": "win_security_aadhealth_svc_agent_regkey_access"
+    },
+    "1d2de8a6-4803-4fde-b85b-f58f3aa7a705": {
+        "reference": [
+            {
+                "pdf": "pdf/098d8e067ce72c803fee68696288aeb7eec3969afabcac109b8d29bfebae0389.pdf",
+                "url": "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/deploy-appcontrol-policies-using-group-policy"
+            },
+            {
+                "pdf": "pdf/000193dc4d7e89588fa75bb19c525f8deb29d288c96eaa768595f978f0a38fcc.pdf",
+                "url": "https://beierle.win/2024-12-20-Weaponizing-WDAC-Killing-the-Dreams-of-EDR/"
+            },
+            {
+                "pdf": "pdf/f8a8de4164dfd263bda35749b8b40273902b14004d79925106eae44c1300f5e3.pdf",
+                "url": "https://github.com/logangoins/Krueger/tree/main"
+            },
+            {
+                "pdf": "pdf/156c0c1b0ff0b5fd981c0623a0430539902b561136725eb6cdf6495a913a90a6.pdf",
+                "url": "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/appcontrol-deployment-guide"
+            },
+            {
+                "pdf": "pdf/d1d8e76ce4e5ea281b33837ca7884ed9714cfcaf47f4016e20630931078950b2.pdf",
+                "url": "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/deploy-appcontrol-policies-with-script"
+            },
+            {
+                "pdf": "pdf/b8459401aa139f4657fdb4895994615ca9891c199c737bbafc5ca04c7a311341.pdf",
+                "url": "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/deploy-appcontrol-policies-with-memcm"
+            }
+        ],
+        "title": "Potentially Suspicious WDAC Policy File Creation",
+        "yaml": "file_event_win_susp_wdac_policy_creation"
     },
     "1d61f71d-59d2-479e-9562-4ff5f4ead16b": {
         "reference": [],
@@ -7237,8 +7333,8 @@
                 "url": "https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1543.002/T1543.002.md"
             }
         ],
-        "title": "Systemd Service Reload or Start",
-        "yaml": "lnx_auditd_pers_systemd_reload"
+        "title": "Service Reload or Start - Linux",
+        "yaml": "lnx_auditd_susp_service_reload_or_restart"
     },
     "2632954e-db1c-49cb-9936-67d1ef1d17d2": {
         "reference": [
@@ -7584,7 +7680,7 @@
                 "url": "https://www.bleepingcomputer.com/news/security/hackers-are-now-hiding-malware-in-windows-event-logs/"
             }
         ],
-        "title": "Creation of an WerFault.exe in Unusual Folder",
+        "title": "Creation of WerFault.exe/Wer.dll in Unusual Folder",
         "yaml": "file_event_win_werfault_dll_hijacking"
     },
     "28ac00d6-22d9-4a3c-927f-bbd770104573": {
@@ -7703,6 +7799,20 @@
         "title": "Vulnerable HackSys Extreme Vulnerable Driver Load",
         "yaml": "driver_load_win_vuln_hevd_driver"
     },
+    "297241f3-8108-4b3a-8c15-2dda9f844594": {
+        "reference": [
+            {
+                "pdf": "pdf/74d5282d9d3bdb316e37c7cbe824e7f586c6c60ac2012be8407048a962233d76.pdf",
+                "url": "https://sysdig.com/blog/detecting-and-mitigating-cve-2024-12084-rsync-remote-code-execution/"
+            },
+            {
+                "pdf": "pdf/97fc9795996bff459bf5ba9b86d8dab446c9a6234b8a3d9ae9673ed4c1f4ea32.pdf",
+                "url": "https://gist.github.com/Neo23x0/a20436375a1e26524931dd8ea1a3af10"
+            }
+        ],
+        "title": "Suspicious Invocation of Shell via Rsync",
+        "yaml": "proc_creation_lnx_rsync_shell_spawn"
+    },
     "2975af79-28c4-4d2f-a951-9095f229df29": {
         "reference": [
             {
@@ -7759,8 +7869,8 @@
                 "url": "https://www.crowdstrike.com/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/"
             },
             {
-                "pdf": "pdf/a19a75f67643b6da24bf18bf61aa37e06386a9cc36f1dfd0c3dd059b5eb5f8f4.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_vm.html"
+                "pdf": "pdf/4409c49bd995e8fc38b1712059823dc118128b1d32bbdb8bc887d9d3c11ca96b.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_vm.html"
             },
             {
                 "pdf": "pdf/08a5cf5b472a9315827458870bb733b069b4647c7adb23ede857f1d082912727.pdf",
@@ -8182,6 +8292,10 @@
             {
                 "pdf": "pdf/bce413b780067c758ce583c9a290eec4ec40f7c2be878de4d59e49b359dfc164.pdf",
                 "url": "https://redcanary.com/blog/misbehaving-rats/"
+            },
+            {
+                "pdf": "pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf",
+                "url": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"
             }
         ],
         "title": "Suspicious Binary Writes Via AnyDesk",
@@ -8447,6 +8561,20 @@
         ],
         "title": "Invoke-Obfuscation Obfuscated IEX Invocation - PowerShell Module",
         "yaml": "posh_pm_invoke_obfuscation_obfuscated_iex"
+    },
+    "2f3039c8-e8fe-43a9-b5cf-dcd424a2522d": {
+        "reference": [
+            {
+                "pdf": "pdf/153e5f1d0d41d9376fe09b7d56433451029359d18209df9c9c74a0865a6f0ad6.pdf",
+                "url": "https://www.virustotal.com/gui/file/c9f9f193409217f73cc976ad078c6f8bf65d3aabcf5fad3e5a47536d47aa6761"
+            },
+            {
+                "pdf": "pdf/5ca564ad9ac642667381d93ad3992964d45f2d21dea70c832e11cc1436f35667.pdf",
+                "url": "https://www.virustotal.com/gui/file/e96a0c1bc5f720d7f0a53f72e5bb424163c943c24a437b1065957a79f5872675"
+            }
+        ],
+        "title": "File Creation Related To RAT Clients",
+        "yaml": "file_event_win_malware_generic_creation_configuration_rats"
     },
     "2f47f1fd-0901-466e-a770-3b7092834a1b": {
         "reference": [
@@ -9396,8 +9524,8 @@
                 "url": "https://www.crowdstrike.com/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/"
             },
             {
-                "pdf": "pdf/e927fee4c4a48e8be0f99145b18b25fa2d9365ea2c694992b83aecb9fd9e5c54.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_network.html"
+                "pdf": "pdf/950ecddbc60bc93f2e3bfb58213a4f59c29e97a531db5c25374d1213f1c26b0a.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_network.html"
             }
         ],
         "title": "ESXi Network Configuration Discovery Via ESXCLI",
@@ -10300,8 +10428,8 @@
                 "url": "https://support.solarwinds.com/SuccessCenter/s/article/Configure-ESXi-Syslog-to-LEM?language=en_US"
             },
             {
-                "pdf": "pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_system.html"
+                "pdf": "pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_system.html"
             }
         ],
         "title": "ESXi Syslog Configuration Change Via ESXCLI",
@@ -10433,8 +10561,8 @@
                 "url": "https://learn.microsoft.com/en-gb/sysinternals/downloads/sdelete"
             }
         ],
-        "title": "Secure Deletion with SDelete",
-        "yaml": "win_security_susp_sdelete"
+        "title": "Potential Secure Deletion with SDelete",
+        "yaml": "win_security_sdelete_potential_secure_deletion"
     },
     "39a94fd1-8c9a-4ff6-bf22-c058762f8014": {
         "reference": [
@@ -10677,6 +10805,20 @@
         ],
         "title": "CMSTP Execution Process Access",
         "yaml": "proc_access_win_cmstp_execution_by_access"
+    },
+    "3b4e950b-a3ea-44d3-877e-432071990709": {
+        "reference": [
+            {
+                "pdf": "pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf",
+                "url": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"
+            },
+            {
+                "pdf": "pdf/ef6b4fcce957647cddaf81afd1a2a1a9a28aca286bf012d9421165ffe65b649b.pdf",
+                "url": "https://intel.thedfirreport.com/eventReports/view/57"
+            }
+        ],
+        "title": "Notepad Password Files Discovery",
+        "yaml": "proc_creation_win_notepad_local_passwd_discovery"
     },
     "3b5b0213-0460-4e3f-8937-3abf98ff7dcc": {
         "reference": [
@@ -11158,6 +11300,20 @@
         "title": "Use NTFS Short Name in Image",
         "yaml": "proc_creation_win_susp_ntfs_short_name_use_image"
     },
+    "3f2c93c7-7b2a-4d58-bb8d-6f39422d8148": {
+        "reference": [
+            {
+                "pdf": "pdf/0c30774ef6f5bbd64b63744e2fbf7cb8326c289c814d345c358a8a28bdf821da.pdf",
+                "url": "https://gist.github.com/travisbgreen/82b68bac499edbe0b17dcbfa0c5c71b7"
+            },
+            {
+                "pdf": "pdf/011da6231ce9144edb6ad9f616118b65529bbf0876a610809949f40774cf5692.pdf",
+                "url": "https://www.linkedin.com/feed/update/urn:li:activity:7282295814792605698/"
+            }
+        ],
+        "title": "CVE-2024-49113 Exploitation Attempt - LDAP Nightmare",
+        "yaml": "win_application_error_exploit_cve_2024_49113_ldap_nightmare"
+    },
     "3f3f3506-1895-401b-9cc3-e86b16e630d0": {
         "reference": [
             {
@@ -11581,6 +11737,10 @@
             {
                 "pdf": "pdf/591453e868426ae0b01a9ea37ab6983f2006ee841291eeb15d20d3fb557b68cd.pdf",
                 "url": "https://github.com/besimorhino/powercat"
+            },
+            {
+                "pdf": "pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf",
+                "url": "https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1"
             }
         ],
         "title": "Malicious PowerShell Scripts - PoshModule",
@@ -12250,7 +12410,12 @@
         "yaml": "proc_creation_win_dism_remove"
     },
     "43fa5350-db63-4b8f-9a01-789a427074e1": {
-        "reference": [],
+        "reference": [
+            {
+                "pdf": "pdf/910d31ccee6a4760d143615b497c9718c7cc2721381d6265641e13d76bf047eb.pdf",
+                "url": "https://www.youtube.com/watch?v=52tAmVLg1KM&t=2070s"
+            }
+        ],
         "title": "Potential Obfuscated Ordinal Call Via Rundll32",
         "yaml": "proc_creation_win_rundll32_obfuscated_ordinal_call"
     },
@@ -12471,6 +12636,24 @@
         ],
         "title": "PUA - Suspicious ActiveDirectory Enumeration Via AdFind.EXE",
         "yaml": "proc_creation_win_pua_adfind_enumeration"
+    },
+    "457cc9ac-d8e6-4d1d-8c0e-251d0f11a74c": {
+        "reference": [
+            {
+                "pdf": "pdf/61f512bc8273e54b718d483f56cf10a579b17b2357a2d219d510625b69adff19.pdf",
+                "url": "https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_ModifyDBCluster.html"
+            },
+            {
+                "pdf": "pdf/bae53b02154f364607570f54f2aef0cc86dce9c29faa648f5232727a31f54aa4.pdf",
+                "url": "https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_DeleteDBCluster.html"
+            },
+            {
+                "pdf": "pdf/d0ae46f4e1c6eb00326ecee9e87f57d5965a7c9d72d3c76b8c168b830e60468b.pdf",
+                "url": "https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-privilege-escalation/aws-rds-privesc#rds-modifydbinstance"
+            }
+        ],
+        "title": "Modification or Deletion of an AWS RDS Cluster",
+        "yaml": "aws_rds_dbcluster_actions"
     },
     "457df417-8b9d-4912-85f3-9dbda39c3645": {
         "reference": [
@@ -13012,7 +13195,7 @@
                 "url": "https://github.com/ORCx41/DeleteShadowCopies"
             }
         ],
-        "title": "Suspicious Volume Shadow Copy Vsstrace.dll Load",
+        "title": "Potentially Suspicious Volume Shadow Copy Vsstrace.dll Load",
         "yaml": "image_load_dll_vsstrace_susp_load"
     },
     "48d91a3a-2363-43ba-a456-ca71ac3da5c2": {
@@ -14048,10 +14231,14 @@
             {
                 "pdf": "pdf/652ded9c74b085d31301180d65b7236d1fc2f551401da32132f8d8b28f26124b.pdf",
                 "url": "https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1057/T1057.md"
+            },
+            {
+                "pdf": "pdf/a581a843cc2bec1b82e13cad8609b73a5891f405292dac2a50978696ac23ff66.pdf",
+                "url": "https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/"
             }
         ],
         "title": "Process Discovery",
-        "yaml": "proc_creation_lnx_process_discovery"
+        "yaml": "proc_creation_lnx_susp_running_process_discovery"
     },
     "4e485d01-e18a-43f6-a46b-ef20496fa9d3": {
         "reference": [
@@ -14444,6 +14631,20 @@
         ],
         "title": "Potential QBot Activity",
         "yaml": "proc_creation_win_malware_qbot"
+    },
+    "4fd6b1c7-19b8-4488-97f6-00f0924991a3": {
+        "reference": [
+            {
+                "pdf": "pdf/293a7ef0bf5384cb3351c62bae1e361047d70ef73bc44c12589853ccc442774f.pdf",
+                "url": "https://x.com/cyberfeeddigest/status/1887041526397587859"
+            },
+            {
+                "pdf": "pdf/2cbcfd4f271701050d7e5b3c8e30a88c58e682f0f2db31251e00feefc168dc63.pdf",
+                "url": "https://github.com/elddy/NimScan"
+            }
+        ],
+        "title": "PUA - NimScan Execution",
+        "yaml": "proc_creation_win_pua_nimscan"
     },
     "4fdc44df-bfe9-4fcc-b041-68f5a2d3031c": {
         "reference": [
@@ -15055,6 +15256,10 @@
             {
                 "pdf": "pdf/35c6b73e4bc77b85ed4aa03d2ce2dcc09b930232d546bb5554c435f2e9374f78.pdf",
                 "url": "https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/"
+            },
+            {
+                "pdf": "pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf",
+                "url": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"
             }
         ],
         "title": "Anydesk Remote Access Software Service Installation",
@@ -17016,8 +17221,8 @@
                 "url": "https://www.crowdstrike.com/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/"
             },
             {
-                "pdf": "pdf/a19a75f67643b6da24bf18bf61aa37e06386a9cc36f1dfd0c3dd059b5eb5f8f4.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_vm.html"
+                "pdf": "pdf/4409c49bd995e8fc38b1712059823dc118128b1d32bbdb8bc887d9d3c11ca96b.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_vm.html"
             },
             {
                 "pdf": "pdf/08a5cf5b472a9315827458870bb733b069b4647c7adb23ede857f1d082912727.pdf",
@@ -17931,6 +18136,10 @@
             {
                 "pdf": "pdf/22c4262613f63beeca6acf9ad85625d9b9f8a5c66eb670eef51e8b7c33d966b8.pdf",
                 "url": "https://github.com/Hackndo/lsassy/blob/14d8f8ae596ecf22b449bfe919829173b8a07635/lsassy/dumpmethod/comsvcs.py"
+            },
+            {
+                "pdf": "pdf/910d31ccee6a4760d143615b497c9718c7cc2721381d6265641e13d76bf047eb.pdf",
+                "url": "https://www.youtube.com/watch?v=52tAmVLg1KM&t=2070s"
             }
         ],
         "title": "Process Memory Dump Via Comsvcs.DLL",
@@ -17992,10 +18201,14 @@
             {
                 "pdf": "pdf/782d8dab6f792ff6e03c8c47b7d6c5a1368da09433104a76b254e8c39dc06dc3.pdf",
                 "url": "https://www.cyberciti.biz/faq/how-force-kill-process-linux/"
+            },
+            {
+                "pdf": "pdf/c730654622bf6e281a84d3e5b9bf008f88a581e24315625761e64e0137c0e1e2.pdf",
+                "url": "https://www.geeksforgeeks.org/how-to-kill-processes-on-the-linux-desktop-with-xkill/"
             }
         ],
         "title": "Terminate Linux Process Via Kill",
-        "yaml": "proc_creation_lnx_kill_process"
+        "yaml": "proc_creation_lnx_susp_process_termination_via_kill"
     },
     "64d51a51-32a6-49f0-9f3d-17e34d640272": {
         "reference": [
@@ -18628,6 +18841,20 @@
         ],
         "title": "Potential Unquoted Service Path Reconnaissance Via Wmic.EXE",
         "yaml": "proc_creation_win_wmic_recon_unquoted_service_search"
+    },
+    "68c2c604-92ad-468b-bf4a-aac49adad08c": {
+        "reference": [
+            {
+                "pdf": "pdf/fae1464eaa7bed4d733180f0881363d851ef0b0dab3b3442e92b0e99de0bf67a.pdf",
+                "url": "https://www.howtogeek.com/137270/50-file-extensions-that-are-potentially-dangerous-on-windows"
+            },
+            {
+                "pdf": "pdf/5d118acc06b671b6be358ed7794d0810a8bdf60d8155489682d348245f935cfe.pdf",
+                "url": "https://www.spamhaus.org/reputation-statistics/cctlds/domains/"
+            }
+        ],
+        "title": "HTTP Request to Low Reputation TLD or Suspicious File Extension",
+        "yaml": "zeek_http_susp_file_ext_from_susp_tld"
     },
     "68c8acb4-1b60-4890-8e82-3ddf7a6dba84": {
         "reference": [
@@ -21503,6 +21730,14 @@
             {
                 "pdf": "pdf/1be69327db7d6021f6b56113cffc482f957a47ec2bb7e93264d4fad9eef836fd.pdf",
                 "url": "https://blog.talosintelligence.com/uat-5647-romcom/"
+            },
+            {
+                "pdf": "pdf/2c5e01350272196afe1912b5a9f31414f33b69ca2d409c07cf55dd9c900509fd.pdf",
+                "url": "https://global.ptsecurity.com/analytics/pt-esc-threat-intelligence/darkhotel-a-cluster-of-groups-united-by-common-techniques"
+            },
+            {
+                "pdf": "pdf/6ee96ef4d87019757b44ae74c48d1e2b9c3ebf7697375f15908827ac77255caa.pdf",
+                "url": "https://threatbook.io/blog/Analysis-of-APT-C-60-Attack-on-South-Korea"
             }
         ],
         "title": "COM Object Hijacking Via Modification Of Default System CLSID Default Value",
@@ -22313,6 +22548,10 @@
             {
                 "pdf": "pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf",
                 "url": "https://github.com/adrecon/AzureADRecon"
+            },
+            {
+                "pdf": "pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf",
+                "url": "https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1"
             }
         ],
         "title": "Malicious PowerShell Commandlets - PoshModule",
@@ -23088,10 +23327,14 @@
             {
                 "pdf": "pdf/b7daec6e2613245d8f29998ab12154eeac8fd14b118e824e34e63dc47adb1ef4.pdf",
                 "url": "https://speakerdeck.com/heirhabarov/hunting-for-powershell-abuse?slide=46"
+            },
+            {
+                "pdf": "pdf/66768cade7559f99d074870297fb279604b3aeb8a663a5f6f5d9e92aa9faded0.pdf",
+                "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-5.1"
             }
         ],
-        "title": "Suspicious XOR Encoded PowerShell Command Line - PowerShell",
-        "yaml": "posh_pc_xor_commandline"
+        "title": "bXOR Operator Usage In PowerShell Command Line - PowerShell Classic",
+        "yaml": "posh_pc_bxor_operator_usage"
     },
     "81315b50-6b60-4d8f-9928-3466e1022515": {
         "reference": [
@@ -24424,6 +24667,50 @@
         "title": "CodeIntegrity - Revoked Image Loaded",
         "yaml": "win_codeintegrity_revoked_image_loaded"
     },
+    "8823e85d-31d8-473e-b7f4-92da070f0fc6": {
+        "reference": [
+            {
+                "pdf": "pdf/95b7ceb708ea771d5cd55c8b644c86e662c27355911260367d55533e5337c685.pdf",
+                "url": "https://redcanary.com/blog/raspberry-robin/"
+            },
+            {
+                "pdf": "pdf/5ccdc350a77053675e8a62dc96c57f5fd73a5cc0be0ed9b52788e83e4d910ff3.pdf",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/10/27/raspberry-robin-worm-part-of-larger-ecosystem-facilitating-pre-ransomware-activity/"
+            },
+            {
+                "pdf": "pdf/0f34e7ede1d075ba83561226c72d9339c62f4e8ac7d16376d807ffce583d30da.pdf",
+                "url": "https://github.com/SigmaHQ/sigma/issues/1009"
+            },
+            {
+                "pdf": "pdf/22c7f53f24d6827336f577e508b83327bde1685b60418d06ceaaa4a17b39aeb8.pdf",
+                "url": "https://strontic.github.io/xcyclopedia/library/shell32.dll-65DA072F25DE83D9F83653E3FEA3644D.html"
+            }
+        ],
+        "title": "Suspicious ShellExec_RunDLL Call Via Ordinal",
+        "yaml": "proc_creation_win_rundll32_susp_shellexec_ordinal_execution"
+    },
+    "882e858a-3233-4ba8-855e-2f3d3575803d": {
+        "reference": [
+            {
+                "pdf": "pdf/c36ef60356c88ac86889b65172bd0abde5c8e865baa15e78b12e4c60e75e4a9f.pdf",
+                "url": "https://www.microsoft.com/en-us/security/blog/2024/05/15/threat-actors-misusing-quick-assist-in-social-engineering-attacks-leading-to-ransomware/"
+            },
+            {
+                "pdf": "pdf/08b46f75798ef34214c51026e7e82d67521393a66bcab0aab74b870c9bcd46e0.pdf",
+                "url": "https://www.linkedin.com/posts/kevin-beaumont-security_ive-been-assisting-a-few-orgs-hit-with-successful-activity-7268055739116445701-xxjZ/"
+            },
+            {
+                "pdf": "pdf/cbb0e67c26e934d852400859ababa6a9c59e2865809b3a3553e87218180838a1.pdf",
+                "url": "https://x.com/cyb3rops/status/1862406110365245506"
+            },
+            {
+                "pdf": "pdf/f7d516952270dc3231706a43c60019dfc33d6e34ae8c257244c9f75eb1e401b3.pdf",
+                "url": "https://learn.microsoft.com/en-us/windows/client-management/client-tools/quick-assist"
+            }
+        ],
+        "title": "DNS Query Request By QuickAssist.EXE",
+        "yaml": "dns_query_win_quickassist"
+    },
     "8834e2f7-6b4b-4f09-8906-d2276470ee23": {
         "reference": [
             {
@@ -25230,6 +25517,24 @@
         ],
         "title": "Invoke-Obfuscation VAR+ Launcher - System",
         "yaml": "win_system_invoke_obfuscation_var_services"
+    },
+    "8cb4d14e-776e-43c2-8fb9-91e7fcea32b4": {
+        "reference": [
+            {
+                "pdf": "pdf/18fb382b33216dc3354ff71aa287af76d3e56a3a228bd5bf3df6bb007e3d7fe1.pdf",
+                "url": "https://lots-project.com/site/2a2e617a75726566642e6e6574"
+            },
+            {
+                "pdf": "pdf/6fe195bd81ce42ca16159a38b96d3dfed392b26fc65660e5afff0c496b3a2b7c.pdf",
+                "url": "https://medium.com/r3d-buck3t/red-teaming-in-cloud-leverage-azure-frontdoor-cdn-for-c2-redirectors-79dd9ca98178"
+            },
+            {
+                "pdf": "pdf/2c75cfb738cb125399d48a3c1693e0c03ba5454039d4b25445dcf693f1841f1a.pdf",
+                "url": "https://www.fortalicesolutions.com/posts/hiding-behind-the-front-door-with-azure-domain-fronting"
+            }
+        ],
+        "title": "Potentially Suspicious Azure Front Door Connection",
+        "yaml": "net_connection_win_susp_azurefd_connection"
     },
     "8cbc9475-8d05-4e27-9c32-df960716c701": {
         "reference": [
@@ -26239,6 +26544,16 @@
         "title": "Possible Impacket SecretDump Remote Activity - Zeek",
         "yaml": "zeek_smb_converted_win_impacket_secretdump"
     },
+    "92f84194-8d9a-4ee0-8699-c30bfac59780": {
+        "reference": [
+            {
+                "pdf": "pdf/c2aaf4b437b6a7b06aa145345f1b236ede11ef67c38d1cb9f376c03dcd74669d.pdf",
+                "url": "https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_ImportKeyPair.html"
+            }
+        ],
+        "title": "AWS Key Pair Import Activity",
+        "yaml": "aws_ec2_import_key_pair_activity"
+    },
     "92fa78e7-4d39-45f1-91a3-8b23f3f1088d": {
         "reference": [
             {
@@ -27024,8 +27339,8 @@
     "9691f58d-92c1-4416-8bf3-2edd753ec9cf": {
         "reference": [
             {
-                "pdf": "pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_system.html"
+                "pdf": "pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_system.html"
             }
         ],
         "title": "ESXi Admin Permission Assigned To Account Via ESXCLI",
@@ -27268,6 +27583,20 @@
         ],
         "title": "FakeUpdates/SocGholish Activity",
         "yaml": "proc_creation_win_malware_socgholish_fakeupdates_activity"
+    },
+    "979baf41-ca44-4540-9d0c-4fcef3b5a3a4": {
+        "reference": [
+            {
+                "pdf": "pdf/3286ae7d0393973e754f15f4e712d51cf4acabdefa3e8dcf935466afa8e83c61.pdf",
+                "url": "https://redcanary.com/blog/right-to-left-override/"
+            },
+            {
+                "pdf": "pdf/7208fe049334bb6b743da8545d8ce3be0fcb056864186a5cac02635f8b212b1f.pdf",
+                "url": "https://www.malwarebytes.com/blog/news/2014/01/the-rtlo-method"
+            }
+        ],
+        "title": "Potential File Extension Spoofing Using Right-to-Left Override",
+        "yaml": "file_event_win_susp_right_to_left_override_extension_spoofing"
     },
     "97a80ec7-0e2f-4d05-9ef4-65760e634f6b": {
         "reference": [
@@ -27745,6 +28074,16 @@
         "title": "Suspicious Download From Direct IP Via Bitsadmin",
         "yaml": "proc_creation_win_bitsadmin_download_direct_ip"
     },
+    "99c8be4f-3087-4f9f-9c24-8c7e257b442e": {
+        "reference": [
+            {
+                "pdf": "pdf/12286f83201cd3774e82f69212c1b05ae28c51a274dd6816ab4aef097698e298.pdf",
+                "url": "https://www.hexacorn.com/blog/2024/10/12/the-sweet16-the-oldbin-lolbin-called-setup16-exe/"
+            }
+        ],
+        "title": "Setup16.EXE Execution With Custom .Lst File",
+        "yaml": "proc_creation_win_setup16_custom_lst_execution"
+    },
     "99cf1e02-00fb-4c0d-8375-563f978dfd37": {
         "reference": [
             {
@@ -27803,7 +28142,7 @@
                 "url": "https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1033/T1033.md"
             }
         ],
-        "title": "System Owner or User Discovery",
+        "title": "System Owner or User Discovery - Linux",
         "yaml": "lnx_auditd_user_discovery"
     },
     "9a132afa-654e-11eb-ae93-0242ac130002": {
@@ -29787,16 +30126,6 @@
         ],
         "title": "Raccine Uninstall",
         "yaml": "proc_creation_win_susp_disable_raccine"
-    },
-    "a33f8808-2812-4373-ae95-8cfb82134978": {
-        "reference": [
-            {
-                "pdf": "pdf/4a20c96f0f3a22f04f644e1b0581420ebea7892b5d1952302e9cb631593124cd.pdf",
-                "url": "https://www.bleepingcomputer.com/news/security/gootkit-malware-bypasses-windows-defender-by-setting-path-exclusions/"
-            }
-        ],
-        "title": "Windows Defender Exclusion Deleted",
-        "yaml": "win_security_windows_defender_exclusions_write_deleted"
     },
     "a34f79a3-8e5f-4cc3-b765-de00695452c2": {
         "reference": [
@@ -32147,7 +32476,7 @@
                 "url": "https://learn.microsoft.com/en-us/entra/architecture/security-operations-applications#service-principal-assigned-to-a-role"
             }
         ],
-        "title": "App Role Added",
+        "title": "App Assigned To Azure RBAC/Microsoft Entra Role",
         "yaml": "azure_app_role_added"
     },
     "b0524451-19af-4efa-a46f-562a977f792e": {
@@ -32640,8 +32969,8 @@
     "b28e4eb3-8bbc-4f0c-819f-edfe8e2f25db": {
         "reference": [
             {
-                "pdf": "pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_system.html"
+                "pdf": "pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_system.html"
             }
         ],
         "title": "ESXi Account Creation Via ESXCLI",
@@ -32948,6 +33277,24 @@
         "title": "WMI ActiveScriptEventConsumers Activity Via Scrcons.EXE DLL Load",
         "yaml": "image_load_scrcons_wmi_scripteventconsumer"
     },
+    "b447f7de-1e53-4cbf-bfb4-f1f6d0b04e4e": {
+        "reference": [
+            {
+                "pdf": "pdf/fffc33946204d1eb9b3d3066619befbbdd4b81b8f399f16f85372ee20ed29ed6.pdf",
+                "url": "https://intel.thedfirreport.com/events/view/30032"
+            },
+            {
+                "pdf": "pdf/4cdb9e745bb532943ae5235a0d2a5251bb4db3808a867e550f3ce77032516558.pdf",
+                "url": "https://intel.thedfirreport.com/eventReports/view/70"
+            },
+            {
+                "pdf": "pdf/a31baf1ed0599eb3cb23a15b0fcb96605d66a7b44b9eabd458e6f04ffbe4ab12.pdf",
+                "url": "https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/"
+            }
+        ],
+        "title": "Suspicious Binaries and Scripts in Public Folder",
+        "yaml": "file_event_win_susp_public_folder_extension"
+    },
     "b45ab1d2-712f-4f01-a751-df3826969807": {
         "reference": [
             {
@@ -32967,6 +33314,14 @@
             {
                 "pdf": "pdf/fce81d0afd71237ab06c31da210809715f89bf802de824bed92a93cf616d4b0e.pdf",
                 "url": "https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1087.001/T1087.001.md"
+            },
+            {
+                "pdf": "pdf/dc9c423678f47c57ffc740d51e0d395b2e4fc7ccddfd8bb31abfee7be45c4755.pdf",
+                "url": "https://my.f5.com/manage/s/article/K589"
+            },
+            {
+                "pdf": "pdf/09c873559cce4cb9c7668832db5d93fbadea8dbea513ed07a513af969bc67101.pdf",
+                "url": "https://man.freebsd.org/cgi/man.cgi?pwd_mkdb"
             }
         ],
         "title": "Local System Accounts Discovery - Linux",
@@ -33109,6 +33464,10 @@
             {
                 "pdf": "pdf/c974f4ee24da1d43205e7e0d03f309ffddf6579eec8899597d1534323ca83515.pdf",
                 "url": "https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1219/T1219.md#atomic-test-2---anydesk-files-detected-test-on-windows"
+            },
+            {
+                "pdf": "pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf",
+                "url": "https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"
             }
         ],
         "title": "Remote Access Tool - AnyDesk Execution",
@@ -34028,6 +34387,24 @@
         "title": "Potential Network Sniffing Activity Using Network Tools",
         "yaml": "proc_creation_win_susp_network_sniffing"
     },
+    "ba226dcf-d390-4642-b9af-b534872f1156": {
+        "reference": [
+            {
+                "pdf": "pdf/2707e9671aba6f75adc5a94b6de903acad12b49ae8ac9f0fdd2f0da21048aff4.pdf",
+                "url": "https://www.atomicredteam.io/atomic-red-team/atomics/T1562.002#atomic-test-8---modify-event-log-channel-access-permissions-via-registry---powershell"
+            },
+            {
+                "pdf": "pdf/d3e26aabc51d2dc5270e98977ef625af236a7ab66e6cb033b3f858f9760f350c.pdf",
+                "url": "https://www.youtube.com/watch?v=uSYvHUVU8xY"
+            },
+            {
+                "pdf": "pdf/79a603245959e8c4723525c94994afac7b15f3429011d816f4d82a6ab49fbcb8.pdf",
+                "url": "https://learn.microsoft.com/en-us/windows/win32/secauthz/security-descriptor-definition-language"
+            }
+        ],
+        "title": "Windows Event Log Access Tampering Via Registry",
+        "yaml": "registry_set_disable_windows_event_log_access"
+    },
     "ba3f5c1b-6272-4119-9dbd-0bc8d21c2702": {
         "reference": [
             {
@@ -34908,6 +35285,10 @@
             {
                 "pdf": "pdf/d3f3bfd6116c7656db52a5d4f016f55b4a1814ed7624f3296944783f36926bc3.pdf",
                 "url": "https://unit42.paloaltonetworks.com/bumblebee-webshell-xhunt-campaign/"
+            },
+            {
+                "pdf": "pdf/b5370d31b075a8642da48044098d7f74fde6d3f4db7ec9089d4a14bceb4c80ea.pdf",
+                "url": "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
             }
         ],
         "title": "Webshell Detection With Command Line Keywords",
@@ -36960,7 +37341,7 @@
                 "url": "https://superuser.com/questions/150675/how-to-display-password-policy-information-for-a-user-ubuntu"
             }
         ],
-        "title": "Password Policy Discovery",
+        "title": "Password Policy Discovery - Linux",
         "yaml": "lnx_auditd_password_policy_discovery"
     },
     "ca9bf243-465e-494a-9e54-bf9fc239057d": {
@@ -37431,6 +37812,16 @@
         ],
         "title": "Github Push Protection Disabled",
         "yaml": "github_push_protection_disabled"
+    },
+    "ccd6a6c8-bb4e-4a91-9d2a-07e632819374": {
+        "reference": [
+            {
+                "pdf": "pdf/c6e7e48a4587face692f4f4ebc99d549142e8bab88a21ef1dd5d69f8e79b8ffd.pdf",
+                "url": "https://docs.aws.amazon.com/IAM/latest/APIReference/API_DeleteSAMLProvider.html"
+            }
+        ],
+        "title": "AWS SAML Provider Deletion Activity",
+        "yaml": "aws_delete_saml_provider"
     },
     "cd072b25-a418-4f98-8ebc-5093fb38fe1a": {
         "reference": [
@@ -38830,8 +39221,8 @@
                 "url": "https://www.trendmicro.com/en_us/research/22/a/analysis-and-Impact-of-lockbit-ransomwares-first-linux-and-vmware-esxi-variant.html"
             },
             {
-                "pdf": "pdf/296373d3abf78835a3f4f713283814b2f3f1e90e2b8b3a605bc0de848ec9157b.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_vsan.html"
+                "pdf": "pdf/897c58eb19cf18204dd3a6639241023665fcead5d61996bf3866b27141f12093.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_vsan.html"
             }
         ],
         "title": "ESXi VSAN Information Discovery Via ESXCLI",
@@ -39017,6 +39408,10 @@
             {
                 "pdf": "pdf/83795f9237a42a6012f0f6b36529acc4b502e0e94651828cb7728ff370f7063e.pdf",
                 "url": "https://web.archive.org/web/20171113231705/https://www.optiv.com/blog/post-exploitation-using-netntlm-downgrade-attacks"
+            },
+            {
+                "pdf": "pdf/e6e34b5a74520be3d14022e9cb0021e32625f050599954e1c8bf85175eebb560.pdf",
+                "url": "https://www.ultimatewindowssecurity.com/wiki/page.aspx?spid=NSrpcservers"
             }
         ],
         "title": "NetNTLM Downgrade Attack - Registry",
@@ -40968,6 +41363,28 @@
         "title": "Decode Base64 Encoded Text",
         "yaml": "proc_creation_lnx_base64_decode"
     },
+    "e20b5b14-ce93-4230-88af-981983ef6e74": {
+        "reference": [
+            {
+                "pdf": "pdf/c36ef60356c88ac86889b65172bd0abde5c8e865baa15e78b12e4c60e75e4a9f.pdf",
+                "url": "https://www.microsoft.com/en-us/security/blog/2024/05/15/threat-actors-misusing-quick-assist-in-social-engineering-attacks-leading-to-ransomware/"
+            },
+            {
+                "pdf": "pdf/08b46f75798ef34214c51026e7e82d67521393a66bcab0aab74b870c9bcd46e0.pdf",
+                "url": "https://www.linkedin.com/posts/kevin-beaumont-security_ive-been-assisting-a-few-orgs-hit-with-successful-activity-7268055739116445701-xxjZ/"
+            },
+            {
+                "pdf": "pdf/cbb0e67c26e934d852400859ababa6a9c59e2865809b3a3553e87218180838a1.pdf",
+                "url": "https://x.com/cyb3rops/status/1862406110365245506"
+            },
+            {
+                "pdf": "pdf/f7d516952270dc3231706a43c60019dfc33d6e34ae8c257244c9f75eb1e401b3.pdf",
+                "url": "https://learn.microsoft.com/en-us/windows/client-management/client-tools/quick-assist"
+            }
+        ],
+        "title": "QuickAssist Execution",
+        "yaml": "proc_creation_win_quickassist_execution"
+    },
     "e212d415-0e93-435f-9e1a-f29005bb4723": {
         "reference": [
             {
@@ -42115,8 +42532,8 @@
                 "url": "https://www.crowdstrike.com/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/"
             },
             {
-                "pdf": "pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_system.html"
+                "pdf": "pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_system.html"
             }
         ],
         "title": "ESXi System Information Discovery Via ESXCLI",
@@ -42382,6 +42799,16 @@
         ],
         "title": "CVE-2023-46747 Exploitation Activity - Webserver",
         "yaml": "web_cve_2023_46747_f5_remote_code_execution"
+    },
+    "e99375eb-3ee0-407a-9f90-79569cc6a01c": {
+        "reference": [
+            {
+                "pdf": "pdf/7964b2d1633649b39b8547f84ffcb863687fb36595a7d8f1c5090f2e41399525.pdf",
+                "url": "https://blog.eclecticiq.com/sandworm-apt-targets-ukrainian-users-with-trojanized-microsoft-kms-activation-tools-in-cyber-espionage-campaigns"
+            }
+        ],
+        "title": "Kalambur Backdoor Curl TOR SOCKS Proxy Execution",
+        "yaml": "proc_creation_win_malware_kalambur_curl_socks_tor"
     },
     "e9a2b582-3f6a-48ac-b4a1-6849cdc50b3c": {
         "reference": [
@@ -42810,6 +43237,24 @@
         ],
         "title": "Mount Execution With Hidepid Parameter",
         "yaml": "proc_creation_lnx_mount_hidepid"
+    },
+    "ec541962-c05a-4420-b9ea-84de072d18f4": {
+        "reference": [
+            {
+                "pdf": "pdf/b0180e753f383a36fad31e6d7c8f48074970270af52b893f495e486ad4007881.pdf",
+                "url": "https://docs.aws.amazon.com/lambda/latest/dg/API_CreateFunctionUrlConfig.html"
+            },
+            {
+                "pdf": "pdf/c81f79b86a00e0c19a9cc7a74ec1da9372c7d60355cb30d3ef521b7eddf918bd.pdf",
+                "url": "https://cloud.hacktricks.xyz/pentesting-cloud/aws-security/aws-privilege-escalation/aws-lambda-privesc"
+            },
+            {
+                "pdf": "pdf/60ce5a9887708074a10c947bed4b29f81f550529c5fdccfc13bc606abc98bd03.pdf",
+                "url": "https://www.wiz.io/blog/how-to-set-secure-defaults-on-aws"
+            }
+        ],
+        "title": "New AWS Lambda Function URL Configuration Created",
+        "yaml": "aws_lambda_function_url"
     },
     "ec570e53-4c76-45a9-804d-dc3f355ff7a7": {
         "reference": [
@@ -43401,6 +43846,16 @@
         ],
         "title": "ProxyLogon Reset Virtual Directories Based On IIS Log",
         "yaml": "web_cve_2021_26858_iis_rce"
+    },
+    "f007b877-02e3-45b7-8501-1b78c2864029": {
+        "reference": [
+            {
+                "pdf": "pdf/b5370d31b075a8642da48044098d7f74fde6d3f4db7ec9089d4a14bceb4c80ea.pdf",
+                "url": "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
+            }
+        ],
+        "title": "CVE-2024-50623 Exploitation Attempt - Cleo",
+        "yaml": "proc_creation_win_exploit_cve_2024_50623_cleo"
     },
     "f01d1f70-cd41-42ec-9c0b-26dd9c22bf29": {
         "reference": [
@@ -44035,6 +44490,10 @@
             {
                 "pdf": "pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf",
                 "url": "https://github.com/adrecon/AzureADRecon"
+            },
+            {
+                "pdf": "pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf",
+                "url": "https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1"
             }
         ],
         "title": "Malicious PowerShell Scripts - FileCreation",
@@ -44290,8 +44749,8 @@
                 "url": "https://www.trendmicro.com/en_us/research/22/a/analysis-and-Impact-of-lockbit-ransomwares-first-linux-and-vmware-esxi-variant.html"
             },
             {
-                "pdf": "pdf/9d42fe7b0b8dec0b658c61ca5c6f76dcc95e4d9dea71ad1d97fcbd0b521c4c0c.pdf",
-                "url": "https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_storage.html"
+                "pdf": "pdf/096376b7f45a72ced48532301be0950bb5017f59a5a348af1d1d30d08018e139.pdf",
+                "url": "https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_storage.html"
             }
         ],
         "title": "ESXi Storage Information Discovery Via ESXCLI",
@@ -45712,6 +46171,20 @@
         ],
         "title": "Function Call From Undocumented COM Interface EditionUpgradeManager",
         "yaml": "proc_access_win_uac_bypass_editionupgrademanagerobj"
+    },
+    "fb4e2211-6d08-426b-8e6f-0d4a161e3b1d": {
+        "reference": [
+            {
+                "pdf": "pdf/e24dd263ca00c75bf887c28fc14179bbb914e4ae0591a285eb80353a7e164c87.pdf",
+                "url": "https://ssd-disclosure.com/ssd-advisory-common-log-file-system-clfs-driver-pe/"
+            },
+            {
+                "pdf": "pdf/2567ce26122380cad0d45bc25c8b6c3147fec9753c35544b4a1f189f3d77d374.pdf",
+                "url": "https://x.com/Threatlabz/status/1879956781360976155"
+            }
+        ],
+        "title": "Clfs.SYS Loaded By Process Located In a Potential Suspicious Location",
+        "yaml": "image_load_clfs_load"
     },
     "fb502828-2db0-438e-93e6-801c7548686d": {
         "reference": [

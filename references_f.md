@@ -481,6 +481,7 @@ Rule id : 2d367498-5112-4ae5-a06a-96e7bc33a211
 | Url | Pdf |
 | --- | --- |
 | https://redcanary.com/blog/misbehaving-rats/ | [pdf/bce413b780067c758ce583c9a290eec4ec40f7c2be878de4d59e49b359dfc164.pdf](pdf/bce413b780067c758ce583c9a290eec4ec40f7c2be878de4d59e49b359dfc164.pdf) |
+| https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/ | [pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf](pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf) |
 
 
 ## file_event_win_apt_cozy_bear_phishing_campaign_indicators
@@ -1260,6 +1261,17 @@ Rule id : 93d5f1b4-36df-45ed-8680-f66f242b8415
 | --- | --- |
 
 
+## file_event_win_malware_generic_creation_configuration_rats
+Title : File Creation Related To RAT Clients
+
+Rule id : 2f3039c8-e8fe-43a9-b5cf-dcd424a2522d
+
+| Url | Pdf |
+| --- | --- |
+| https://www.virustotal.com/gui/file/c9f9f193409217f73cc976ad078c6f8bf65d3aabcf5fad3e5a47536d47aa6761 | [pdf/153e5f1d0d41d9376fe09b7d56433451029359d18209df9c9c74a0865a6f0ad6.pdf](pdf/153e5f1d0d41d9376fe09b7d56433451029359d18209df9c9c74a0865a6f0ad6.pdf) |
+| https://www.virustotal.com/gui/file/e96a0c1bc5f720d7f0a53f72e5bb424163c943c24a437b1065957a79f5872675 | [pdf/5ca564ad9ac642667381d93ad3992964d45f2d21dea70c832e11cc1436f35667.pdf](pdf/5ca564ad9ac642667381d93ad3992964d45f2d21dea70c832e11cc1436f35667.pdf) |
+
+
 ## file_event_win_malware_goofy_guineapig_file_indicators
 Title : Goofy Guineapig Backdoor IOC
 
@@ -1676,6 +1688,7 @@ Rule id : f331aa1f-8c53-4fc3-b083-cc159bc971cb
 | https://github.com/Kevin-Robertson/Powermad | [pdf/adbee1a5f97cc7439bcf720eaef0dc1507e0b03ec3cfc9ae20b03b9dbe48a226.pdf](pdf/adbee1a5f97cc7439bcf720eaef0dc1507e0b03ec3cfc9ae20b03b9dbe48a226.pdf) |
 | https://github.com/adrecon/ADRecon | [pdf/2c50a3c51c7eacb354a7fbe79cdc30c1bc56b626abde65060bb536e12ca883e0.pdf](pdf/2c50a3c51c7eacb354a7fbe79cdc30c1bc56b626abde65060bb536e12ca883e0.pdf) |
 | https://github.com/adrecon/AzureADRecon | [pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf](pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf) |
+| https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1 | [pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf](pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf) |
 
 
 ## file_event_win_powershell_module_creation
@@ -2126,6 +2139,18 @@ Rule id : 3da70954-0f2c-4103-adff-b7440368f50e
 | https://web.archive.org/web/20230331181619/https://blog.dylan.codes/evading-sysmon-and-windows-event-logging/ | [pdf/39f9e06b249cba1b01c10d09b9aa36e2e83dfa8dafeb31b1df72a64a6ecd9afb.pdf](pdf/39f9e06b249cba1b01c10d09b9aa36e2e83dfa8dafeb31b1df72a64a6ecd9afb.pdf) |
 
 
+## file_event_win_susp_public_folder_extension
+Title : Suspicious Binaries and Scripts in Public Folder
+
+Rule id : b447f7de-1e53-4cbf-bfb4-f1f6d0b04e4e
+
+| Url | Pdf |
+| --- | --- |
+| https://intel.thedfirreport.com/events/view/30032 | [pdf/fffc33946204d1eb9b3d3066619befbbdd4b81b8f399f16f85372ee20ed29ed6.pdf](pdf/fffc33946204d1eb9b3d3066619befbbdd4b81b8f399f16f85372ee20ed29ed6.pdf) |
+| https://intel.thedfirreport.com/eventReports/view/70 | [pdf/4cdb9e745bb532943ae5235a0d2a5251bb4db3808a867e550f3ce77032516558.pdf](pdf/4cdb9e745bb532943ae5235a0d2a5251bb4db3808a867e550f3ce77032516558.pdf) |
+| https://thedfirreport.com/2025/01/27/cobalt-strike-and-a-pair-of-socks-lead-to-lockbit-ransomware/ | [pdf/a31baf1ed0599eb3cb23a15b0fcb96605d66a7b44b9eabd458e6f04ffbe4ab12.pdf](pdf/a31baf1ed0599eb3cb23a15b0fcb96605d66a7b44b9eabd458e6f04ffbe4ab12.pdf) |
+
+
 ## file_event_win_susp_recycle_bin_fake_exec
 Title : Suspicious File Creation Activity From Fake Recycle.Bin Folder
 
@@ -2135,6 +2160,17 @@ Rule id : cd8b36ac-8e4a-4c2f-a402-a29b8fbd5bca
 | --- | --- |
 | https://www.mandiant.com/resources/blog/infected-usb-steal-secrets | [pdf/fe587bfb0c663d36d368b89ae2fcb4d8d692aec8623b6525d877312df7697152.pdf](pdf/fe587bfb0c663d36d368b89ae2fcb4d8d692aec8623b6525d877312df7697152.pdf) |
 | https://unit42.paloaltonetworks.com/cloaked-ursa-phishing/ | [pdf/b3af56804ea988613b3ac26854aa3bb947a8e7a812118bb6feba27508439287e.pdf](pdf/b3af56804ea988613b3ac26854aa3bb947a8e7a812118bb6feba27508439287e.pdf) |
+
+
+## file_event_win_susp_right_to_left_override_extension_spoofing
+Title : Potential File Extension Spoofing Using Right-to-Left Override
+
+Rule id : 979baf41-ca44-4540-9d0c-4fcef3b5a3a4
+
+| Url | Pdf |
+| --- | --- |
+| https://redcanary.com/blog/right-to-left-override/ | [pdf/3286ae7d0393973e754f15f4e712d51cf4acabdefa3e8dcf935466afa8e83c61.pdf](pdf/3286ae7d0393973e754f15f4e712d51cf4acabdefa3e8dcf935466afa8e83c61.pdf) |
+| https://www.malwarebytes.com/blog/news/2014/01/the-rtlo-method | [pdf/7208fe049334bb6b743da8545d8ce3be0fcb056864186a5cac02635f8b212b1f.pdf](pdf/7208fe049334bb6b743da8545d8ce3be0fcb056864186a5cac02635f8b212b1f.pdf) |
 
 
 ## file_event_win_susp_spool_drivers_color_drop
@@ -2194,6 +2230,21 @@ Rule id : 3a9fa2ec-30bc-4ebd-b49e-7c9cff225502
 | Url | Pdf |
 | --- | --- |
 | https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.2 | [pdf/19cabaec8c205116f651ab50f986d1418e9d55d60e1714d3366592d49715c6be.pdf](pdf/19cabaec8c205116f651ab50f986d1418e9d55d60e1714d3366592d49715c6be.pdf) |
+
+
+## file_event_win_susp_wdac_policy_creation
+Title : Potentially Suspicious WDAC Policy File Creation
+
+Rule id : 1d2de8a6-4803-4fde-b85b-f58f3aa7a705
+
+| Url | Pdf |
+| --- | --- |
+| https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/deploy-appcontrol-policies-using-group-policy | [pdf/098d8e067ce72c803fee68696288aeb7eec3969afabcac109b8d29bfebae0389.pdf](pdf/098d8e067ce72c803fee68696288aeb7eec3969afabcac109b8d29bfebae0389.pdf) |
+| https://beierle.win/2024-12-20-Weaponizing-WDAC-Killing-the-Dreams-of-EDR/ | [pdf/000193dc4d7e89588fa75bb19c525f8deb29d288c96eaa768595f978f0a38fcc.pdf](pdf/000193dc4d7e89588fa75bb19c525f8deb29d288c96eaa768595f978f0a38fcc.pdf) |
+| https://github.com/logangoins/Krueger/tree/main | [pdf/f8a8de4164dfd263bda35749b8b40273902b14004d79925106eae44c1300f5e3.pdf](pdf/f8a8de4164dfd263bda35749b8b40273902b14004d79925106eae44c1300f5e3.pdf) |
+| https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/appcontrol-deployment-guide | [pdf/156c0c1b0ff0b5fd981c0623a0430539902b561136725eb6cdf6495a913a90a6.pdf](pdf/156c0c1b0ff0b5fd981c0623a0430539902b561136725eb6cdf6495a913a90a6.pdf) |
+| https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/deploy-appcontrol-policies-with-script | [pdf/d1d8e76ce4e5ea281b33837ca7884ed9714cfcaf47f4016e20630931078950b2.pdf](pdf/d1d8e76ce4e5ea281b33837ca7884ed9714cfcaf47f4016e20630931078950b2.pdf) |
+| https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/deployment/deploy-appcontrol-policies-with-memcm | [pdf/b8459401aa139f4657fdb4895994615ca9891c199c737bbafc5ca04c7a311341.pdf](pdf/b8459401aa139f4657fdb4895994615ca9891c199c737bbafc5ca04c7a311341.pdf) |
 
 
 ## file_event_win_susp_windows_terminal_profile
@@ -2475,7 +2526,7 @@ Rule id : 39f1f9f2-9636-45de-98f6-a4046aa8e4b9
 
 
 ## file_event_win_werfault_dll_hijacking
-Title : Creation of an WerFault.exe in Unusual Folder
+Title : Creation of WerFault.exe/Wer.dll in Unusual Folder
 
 Rule id : 28a452f3-786c-4fd8-b8f2-bddbe9d616d1
 

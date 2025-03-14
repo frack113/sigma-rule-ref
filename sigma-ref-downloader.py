@@ -120,9 +120,10 @@ async def url_to_pdf(url, output_path):
                     if await page.locator(xpath).is_visible():
                         await page.locator(xpath).click(timeout=2000)
 
+            time.sleep(15)
             #as it take time to full load
             if site in wait_more:
-                time.sleep(10)
+                time.sleep(30)
             
             await page.emulate_media(media="screen")
             await page.pdf(

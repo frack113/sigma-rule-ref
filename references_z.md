@@ -135,6 +135,17 @@ Rule id : ab6b1a39-a9ee-4ab4-b075-e83acf6e346b
 | https://twitter.com/neu5ron/status/1438987292971053057?s=20 | [pdf/1643b116db69f68831b3921fa07fb8891aee24e67f721d3c45b6b1f5c0f2d284.pdf](pdf/1643b116db69f68831b3921fa07fb8891aee24e67f721d3c45b6b1f5c0f2d284.pdf) |
 
 
+## zeek_http_susp_file_ext_from_susp_tld
+Title : HTTP Request to Low Reputation TLD or Suspicious File Extension
+
+Rule id : 68c2c604-92ad-468b-bf4a-aac49adad08c
+
+| Url | Pdf |
+| --- | --- |
+| https://www.howtogeek.com/137270/50-file-extensions-that-are-potentially-dangerous-on-windows | [pdf/fae1464eaa7bed4d733180f0881363d851ef0b0dab3b3442e92b0e99de0bf67a.pdf](pdf/fae1464eaa7bed4d733180f0881363d851ef0b0dab3b3442e92b0e99de0bf67a.pdf) |
+| https://www.spamhaus.org/reputation-statistics/cctlds/domains/ | [pdf/5d118acc06b671b6be358ed7794d0810a8bdf60d8155489682d348245f935cfe.pdf](pdf/5d118acc06b671b6be358ed7794d0810a8bdf60d8155489682d348245f935cfe.pdf) |
+
+
 ## zeek_http_webdav_put_request
 Title : WebDav Put Request
 

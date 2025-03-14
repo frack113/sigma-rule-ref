@@ -249,6 +249,17 @@ Rule id : d7326048-328b-4d5e-98af-86e84b17c765
 | https://threathunterplaybook.com/hunts/windows/190815-RemoteServiceInstallation/notebook.html | [pdf/2a0fc20fcccb0933f12022d737d837f6c1b03b5a4964f931a4840354b2669628.pdf](pdf/2a0fc20fcccb0933f12022d737d837f6c1b03b5a4964f931a4840354b2669628.pdf) |
 
 
+## posh_pc_bxor_operator_usage
+Title : bXOR Operator Usage In PowerShell Command Line - PowerShell Classic
+
+Rule id : 812837bb-b17f-45e9-8bd0-0ec35d2e3bd6
+
+| Url | Pdf |
+| --- | --- |
+| https://speakerdeck.com/heirhabarov/hunting-for-powershell-abuse?slide=46 | [pdf/b7daec6e2613245d8f29998ab12154eeac8fd14b118e824e34e63dc47adb1ef4.pdf](pdf/b7daec6e2613245d8f29998ab12154eeac8fd14b118e824e34e63dc47adb1ef4.pdf) |
+| https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_arithmetic_operators?view=powershell-5.1 | [pdf/66768cade7559f99d074870297fb279604b3aeb8a663a5f6f5d9e92aa9faded0.pdf](pdf/66768cade7559f99d074870297fb279604b3aeb8a663a5f6f5d9e92aa9faded0.pdf) |
+
+
 ## posh_pc_delete_volume_shadow_copies
 Title : Delete Volume Shadow Copies Via WMI With PowerShell
 
@@ -376,16 +387,6 @@ Rule id : df9a0e0e-fedb-4d6c-8668-d765dfc92aa7
 | https://github.com/bohops/WSMan-WinRM | [pdf/757af49b1f0c156977333788b1d9cca13e82981504b0a13f0039351610c7874c.pdf](pdf/757af49b1f0c156977333788b1d9cca13e82981504b0a13f0039351610c7874c.pdf) |
 
 
-## posh_pc_xor_commandline
-Title : Suspicious XOR Encoded PowerShell Command Line - PowerShell
-
-Rule id : 812837bb-b17f-45e9-8bd0-0ec35d2e3bd6
-
-| Url | Pdf |
-| --- | --- |
-| https://speakerdeck.com/heirhabarov/hunting-for-powershell-abuse?slide=46 | [pdf/b7daec6e2613245d8f29998ab12154eeac8fd14b118e824e34e63dc47adb1ef4.pdf](pdf/b7daec6e2613245d8f29998ab12154eeac8fd14b118e824e34e63dc47adb1ef4.pdf) |
-
-
 ## posh_pm_active_directory_module_dll_import
 Title : Potential Active Directory Enumeration Using AD Module - PsModule
 
@@ -465,6 +466,7 @@ Rule id : 41025fd7-0466-4650-a813-574aaacbe7f4
 | https://github.com/samratashok/nishang | [pdf/fc5f88596eb890d40d5308dde9b812d7c442adeb456fbc0bdee6ecdbe1655267.pdf](pdf/fc5f88596eb890d40d5308dde9b812d7c442adeb456fbc0bdee6ecdbe1655267.pdf) |
 | https://github.com/DarkCoderSc/PowerRunAsSystem/ | [pdf/4a83eea713d1b64a517497a4d1b6cb1835e471f28956cce95743b2e7b6dd8dae.pdf](pdf/4a83eea713d1b64a517497a4d1b6cb1835e471f28956cce95743b2e7b6dd8dae.pdf) |
 | https://github.com/besimorhino/powercat | [pdf/591453e868426ae0b01a9ea37ab6983f2006ee841291eeb15d20d3fb557b68cd.pdf](pdf/591453e868426ae0b01a9ea37ab6983f2006ee841291eeb15d20d3fb557b68cd.pdf) |
+| https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1 | [pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf](pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf) |
 
 
 ## posh_pm_get_addbaccount
@@ -635,6 +637,7 @@ Rule id : 7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c
 | https://github.com/Kevin-Robertson/Powermad | [pdf/adbee1a5f97cc7439bcf720eaef0dc1507e0b03ec3cfc9ae20b03b9dbe48a226.pdf](pdf/adbee1a5f97cc7439bcf720eaef0dc1507e0b03ec3cfc9ae20b03b9dbe48a226.pdf) |
 | https://github.com/adrecon/ADRecon | [pdf/2c50a3c51c7eacb354a7fbe79cdc30c1bc56b626abde65060bb536e12ca883e0.pdf](pdf/2c50a3c51c7eacb354a7fbe79cdc30c1bc56b626abde65060bb536e12ca883e0.pdf) |
 | https://github.com/adrecon/AzureADRecon | [pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf](pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf) |
+| https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1 | [pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf](pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf) |
 
 
 ## posh_pm_remote_powershell_session
@@ -3268,7 +3271,7 @@ Rule id : 33e814e0-1f00-4e43-9c34-31fb7ae2b174
 | Url | Pdf |
 | --- | --- |
 | https://www.crowdstrike.com/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/ | [pdf/03317cac68d1d0e12f48eae3b98f5d8b75b636f2a342e7e207a47ba7ea106839.pdf](pdf/03317cac68d1d0e12f48eae3b98f5d8b75b636f2a342e7e207a47ba7ea106839.pdf) |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_network.html | [pdf/e927fee4c4a48e8be0f99145b18b25fa2d9365ea2c694992b83aecb9fd9e5c54.pdf](pdf/e927fee4c4a48e8be0f99145b18b25fa2d9365ea2c694992b83aecb9fd9e5c54.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_network.html | [pdf/950ecddbc60bc93f2e3bfb58213a4f59c29e97a531db5c25374d1213f1c26b0a.pdf](pdf/950ecddbc60bc93f2e3bfb58213a4f59c29e97a531db5c25374d1213f1c26b0a.pdf) |
 
 
 ## proc_creation_lnx_esxcli_permission_change_admin
@@ -3278,7 +3281,7 @@ Rule id : 9691f58d-92c1-4416-8bf3-2edd753ec9cf
 
 | Url | Pdf |
 | --- | --- |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_system.html | [pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf](pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_system.html | [pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf](pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf) |
 
 
 ## proc_creation_lnx_esxcli_storage_discovery
@@ -3290,7 +3293,7 @@ Rule id : f41dada5-3f56-4232-8503-3fb7f9cf2d60
 | --- | --- |
 | https://www.trendmicro.com/en_us/research/21/e/darkside-linux-vms-targeted.html | [pdf/3deabf8d08bbedde767fa423dae31f6f7cfe5e08ccb967d48c45a1363e7a0f6d.pdf](pdf/3deabf8d08bbedde767fa423dae31f6f7cfe5e08ccb967d48c45a1363e7a0f6d.pdf) |
 | https://www.trendmicro.com/en_us/research/22/a/analysis-and-Impact-of-lockbit-ransomwares-first-linux-and-vmware-esxi-variant.html | [pdf/8c02ff48a093aa4d5fb16d1c115302313fa975d92b7f53d258b68c10b80fc2d1.pdf](pdf/8c02ff48a093aa4d5fb16d1c115302313fa975d92b7f53d258b68c10b80fc2d1.pdf) |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_storage.html | [pdf/9d42fe7b0b8dec0b658c61ca5c6f76dcc95e4d9dea71ad1d97fcbd0b521c4c0c.pdf](pdf/9d42fe7b0b8dec0b658c61ca5c6f76dcc95e4d9dea71ad1d97fcbd0b521c4c0c.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_storage.html | [pdf/096376b7f45a72ced48532301be0950bb5017f59a5a348af1d1d30d08018e139.pdf](pdf/096376b7f45a72ced48532301be0950bb5017f59a5a348af1d1d30d08018e139.pdf) |
 
 
 ## proc_creation_lnx_esxcli_syslog_config_change
@@ -3301,7 +3304,7 @@ Rule id : 38eb1dbb-011f-40b1-a126-cf03a0210563
 | Url | Pdf |
 | --- | --- |
 | https://support.solarwinds.com/SuccessCenter/s/article/Configure-ESXi-Syslog-to-LEM?language=en_US | [pdf/2f4dcb7e0868cf40b79ae4ff921de7e7f6153d0dfbd09371a5f0fb3431e248f1.pdf](pdf/2f4dcb7e0868cf40b79ae4ff921de7e7f6153d0dfbd09371a5f0fb3431e248f1.pdf) |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_system.html | [pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf](pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_system.html | [pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf](pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf) |
 
 
 ## proc_creation_lnx_esxcli_system_discovery
@@ -3312,7 +3315,7 @@ Rule id : e80273e1-9faf-40bc-bd85-dbaff104c4e9
 | Url | Pdf |
 | --- | --- |
 | https://www.crowdstrike.com/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/ | [pdf/03317cac68d1d0e12f48eae3b98f5d8b75b636f2a342e7e207a47ba7ea106839.pdf](pdf/03317cac68d1d0e12f48eae3b98f5d8b75b636f2a342e7e207a47ba7ea106839.pdf) |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_system.html | [pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf](pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_system.html | [pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf](pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf) |
 
 
 ## proc_creation_lnx_esxcli_user_account_creation
@@ -3322,7 +3325,7 @@ Rule id : b28e4eb3-8bbc-4f0c-819f-edfe8e2f25db
 
 | Url | Pdf |
 | --- | --- |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_system.html | [pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf](pdf/0207053d59d10073ded700a40a19ea0657dd2656576a53bedfb8b51ee56999e8.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_system.html | [pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf](pdf/f218f46471f9a18e33480d15a56f0266a7190d88ba60413b3c133d07debf6de5.pdf) |
 
 
 ## proc_creation_lnx_esxcli_vm_discovery
@@ -3333,7 +3336,7 @@ Rule id : 5f1573a7-363b-4114-9208-ad7a61de46eb
 | Url | Pdf |
 | --- | --- |
 | https://www.crowdstrike.com/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/ | [pdf/03317cac68d1d0e12f48eae3b98f5d8b75b636f2a342e7e207a47ba7ea106839.pdf](pdf/03317cac68d1d0e12f48eae3b98f5d8b75b636f2a342e7e207a47ba7ea106839.pdf) |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_vm.html | [pdf/a19a75f67643b6da24bf18bf61aa37e06386a9cc36f1dfd0c3dd059b5eb5f8f4.pdf](pdf/a19a75f67643b6da24bf18bf61aa37e06386a9cc36f1dfd0c3dd059b5eb5f8f4.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_vm.html | [pdf/4409c49bd995e8fc38b1712059823dc118128b1d32bbdb8bc887d9d3c11ca96b.pdf](pdf/4409c49bd995e8fc38b1712059823dc118128b1d32bbdb8bc887d9d3c11ca96b.pdf) |
 | https://www.secuinfra.com/en/techtalk/hide-your-hypervisor-analysis-of-esxiargs-ransomware/ | [pdf/08a5cf5b472a9315827458870bb733b069b4647c7adb23ede857f1d082912727.pdf](pdf/08a5cf5b472a9315827458870bb733b069b4647c7adb23ede857f1d082912727.pdf) |
 | https://www.trendmicro.com/en_us/research/22/e/new-linux-based-ransomware-cheerscrypt-targets-exsi-devices.html | [pdf/6ef51d184e86ab18d582bd0d0c6fd15769c17f3b3ce6f47ceeed6ba1b2345f4a.pdf](pdf/6ef51d184e86ab18d582bd0d0c6fd15769c17f3b3ce6f47ceeed6ba1b2345f4a.pdf) |
 
@@ -3346,7 +3349,7 @@ Rule id : 2992ac4d-31e9-4325-99f2-b18a73221bb2
 | Url | Pdf |
 | --- | --- |
 | https://www.crowdstrike.com/blog/hypervisor-jackpotting-ecrime-actors-increase-targeting-of-esxi-servers/ | [pdf/03317cac68d1d0e12f48eae3b98f5d8b75b636f2a342e7e207a47ba7ea106839.pdf](pdf/03317cac68d1d0e12f48eae3b98f5d8b75b636f2a342e7e207a47ba7ea106839.pdf) |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_vm.html | [pdf/a19a75f67643b6da24bf18bf61aa37e06386a9cc36f1dfd0c3dd059b5eb5f8f4.pdf](pdf/a19a75f67643b6da24bf18bf61aa37e06386a9cc36f1dfd0c3dd059b5eb5f8f4.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_vm.html | [pdf/4409c49bd995e8fc38b1712059823dc118128b1d32bbdb8bc887d9d3c11ca96b.pdf](pdf/4409c49bd995e8fc38b1712059823dc118128b1d32bbdb8bc887d9d3c11ca96b.pdf) |
 | https://www.secuinfra.com/en/techtalk/hide-your-hypervisor-analysis-of-esxiargs-ransomware/ | [pdf/08a5cf5b472a9315827458870bb733b069b4647c7adb23ede857f1d082912727.pdf](pdf/08a5cf5b472a9315827458870bb733b069b4647c7adb23ede857f1d082912727.pdf) |
 | https://www.trendmicro.com/en_us/research/22/e/new-linux-based-ransomware-cheerscrypt-targets-exsi-devices.html | [pdf/6ef51d184e86ab18d582bd0d0c6fd15769c17f3b3ce6f47ceeed6ba1b2345f4a.pdf](pdf/6ef51d184e86ab18d582bd0d0c6fd15769c17f3b3ce6f47ceeed6ba1b2345f4a.pdf) |
 
@@ -3360,7 +3363,7 @@ Rule id : d54c2f06-aca9-4e2b-81c9-5317858f4b79
 | --- | --- |
 | https://www.trendmicro.com/en_us/research/21/e/darkside-linux-vms-targeted.html | [pdf/3deabf8d08bbedde767fa423dae31f6f7cfe5e08ccb967d48c45a1363e7a0f6d.pdf](pdf/3deabf8d08bbedde767fa423dae31f6f7cfe5e08ccb967d48c45a1363e7a0f6d.pdf) |
 | https://www.trendmicro.com/en_us/research/22/a/analysis-and-Impact-of-lockbit-ransomwares-first-linux-and-vmware-esxi-variant.html | [pdf/8c02ff48a093aa4d5fb16d1c115302313fa975d92b7f53d258b68c10b80fc2d1.pdf](pdf/8c02ff48a093aa4d5fb16d1c115302313fa975d92b7f53d258b68c10b80fc2d1.pdf) |
-| https://developer.vmware.com/docs/11743/esxi-7-0-esxcli-command-reference/namespace/esxcli_vsan.html | [pdf/296373d3abf78835a3f4f713283814b2f3f1e90e2b8b3a605bc0de848ec9157b.pdf](pdf/296373d3abf78835a3f4f713283814b2f3f1e90e2b8b3a605bc0de848ec9157b.pdf) |
+| https://developer.broadcom.com/xapis/esxcli-command-reference/7.0.0/namespace/esxcli_vsan.html | [pdf/897c58eb19cf18204dd3a6639241023665fcead5d61996bf3866b27141f12093.pdf](pdf/897c58eb19cf18204dd3a6639241023665fcead5d61996bf3866b27141f12093.pdf) |
 
 
 ## proc_creation_lnx_exploit_cve_2023_22518_confluence_java_child_proc
@@ -3508,17 +3511,6 @@ Rule id : 3be619f4-d9ec-4ea8-a173-18fdd01996ab
 | https://twitter.com/Joseliyo_Jstnk/status/1620131033474822144 | [pdf/a9e5024dd05700deb8f685901900d3df8e62d6c3fbb3c193c913aa31bbae28d4.pdf](pdf/a9e5024dd05700deb8f685901900d3df8e62d6c3fbb3c193c913aa31bbae28d4.pdf) |
 
 
-## proc_creation_lnx_kill_process
-Title : Terminate Linux Process Via Kill
-
-Rule id : 64c41342-6b27-523b-5d3f-c265f3efcdb3
-
-| Url | Pdf |
-| --- | --- |
-| https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html | [pdf/64517e96c7bf7802e1c7cbc95b7317f2e4c139fd71ef5fd6acb6e6617f471095.pdf](pdf/64517e96c7bf7802e1c7cbc95b7317f2e4c139fd71ef5fd6acb6e6617f471095.pdf) |
-| https://www.cyberciti.biz/faq/how-force-kill-process-linux/ | [pdf/782d8dab6f792ff6e03c8c47b7d6c5a1368da09433104a76b254e8c39dc06dc3.pdf](pdf/782d8dab6f792ff6e03c8c47b7d6c5a1368da09433104a76b254e8c39dc06dc3.pdf) |
-
-
 ## proc_creation_lnx_local_account
 Title : Local System Accounts Discovery - Linux
 
@@ -3527,6 +3519,8 @@ Rule id : b45e3d6f-42c6-47d8-a478-df6bd6cf534c
 | Url | Pdf |
 | --- | --- |
 | https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1087.001/T1087.001.md | [pdf/fce81d0afd71237ab06c31da210809715f89bf802de824bed92a93cf616d4b0e.pdf](pdf/fce81d0afd71237ab06c31da210809715f89bf802de824bed92a93cf616d4b0e.pdf) |
+| https://my.f5.com/manage/s/article/K589 | [pdf/dc9c423678f47c57ffc740d51e0d395b2e4fc7ccddfd8bb31abfee7be45c4755.pdf](pdf/dc9c423678f47c57ffc740d51e0d395b2e4fc7ccddfd8bb31abfee7be45c4755.pdf) |
+| https://man.freebsd.org/cgi/man.cgi?pwd_mkdb | [pdf/09c873559cce4cb9c7668832db5d93fbadea8dbea513ed07a513af969bc67101.pdf](pdf/09c873559cce4cb9c7668832db5d93fbadea8dbea513ed07a513af969bc67101.pdf) |
 
 
 ## proc_creation_lnx_local_groups
@@ -3691,16 +3685,6 @@ Rule id : 97de11cd-4b67-4abf-9a8b-1020e670aa9e
 | https://www.virustotal.com/gui/file/beddf70a7bab805f0c0b69ac0989db6755949f9f68525c08cb874988353f78a9/content | [pdf/273b7800a87a57b6d52122da9f0665421214ae638102f27be92936203dde6258.pdf](pdf/273b7800a87a57b6d52122da9f0665421214ae638102f27be92936203dde6258.pdf) |
 
 
-## proc_creation_lnx_process_discovery
-Title : Process Discovery
-
-Rule id : 4e2f5868-08d4-413d-899f-dc2f1508627b
-
-| Url | Pdf |
-| --- | --- |
-| https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1057/T1057.md | [pdf/652ded9c74b085d31301180d65b7236d1fc2f551401da32132f8d8b28f26124b.pdf](pdf/652ded9c74b085d31301180d65b7236d1fc2f551401da32132f8d8b28f26124b.pdf) |
-
-
 ## proc_creation_lnx_proxy_connection
 Title : Connection Proxy
 
@@ -3781,6 +3765,17 @@ Rule id : e2326866-609f-4015-aea9-7ec634e8aa04
 | Url | Pdf |
 | --- | --- |
 | https://gtfobins.github.io/gtfobins/rsync/#shell | [pdf/addcc043525c89f8f741b24426c8203a0fbbd41f2e6d4d941f747ccac2b0f2a2.pdf](pdf/addcc043525c89f8f741b24426c8203a0fbbd41f2e6d4d941f747ccac2b0f2a2.pdf) |
+
+
+## proc_creation_lnx_rsync_shell_spawn
+Title : Suspicious Invocation of Shell via Rsync
+
+Rule id : 297241f3-8108-4b3a-8c15-2dda9f844594
+
+| Url | Pdf |
+| --- | --- |
+| https://sysdig.com/blog/detecting-and-mitigating-cve-2024-12084-rsync-remote-code-execution/ | [pdf/74d5282d9d3bdb316e37c7cbe824e7f586c6c60ac2012be8407048a962233d76.pdf](pdf/74d5282d9d3bdb316e37c7cbe824e7f586c6c60ac2012be8407048a962233d76.pdf) |
+| https://gist.github.com/Neo23x0/a20436375a1e26524931dd8ea1a3af10 | [pdf/97fc9795996bff459bf5ba9b86d8dab446c9a6234b8a3d9ae9673ed4c1f4ea32.pdf](pdf/97fc9795996bff459bf5ba9b86d8dab446c9a6234b8a3d9ae9673ed4c1f4ea32.pdf) |
 
 
 ## proc_creation_lnx_ruby_reverse_shell
@@ -4061,6 +4056,18 @@ Rule id : 880973f3-9708-491c-a77b-2a35a1921158
 | --- | --- |
 
 
+## proc_creation_lnx_susp_process_termination_via_kill
+Title : Terminate Linux Process Via Kill
+
+Rule id : 64c41342-6b27-523b-5d3f-c265f3efcdb3
+
+| Url | Pdf |
+| --- | --- |
+| https://www.trendmicro.com/en_us/research/23/c/iron-tiger-sysupdate-adds-linux-targeting.html | [pdf/64517e96c7bf7802e1c7cbc95b7317f2e4c139fd71ef5fd6acb6e6617f471095.pdf](pdf/64517e96c7bf7802e1c7cbc95b7317f2e4c139fd71ef5fd6acb6e6617f471095.pdf) |
+| https://www.cyberciti.biz/faq/how-force-kill-process-linux/ | [pdf/782d8dab6f792ff6e03c8c47b7d6c5a1368da09433104a76b254e8c39dc06dc3.pdf](pdf/782d8dab6f792ff6e03c8c47b7d6c5a1368da09433104a76b254e8c39dc06dc3.pdf) |
+| https://www.geeksforgeeks.org/how-to-kill-processes-on-the-linux-desktop-with-xkill/ | [pdf/c730654622bf6e281a84d3e5b9bf008f88a581e24315625761e64e0137c0e1e2.pdf](pdf/c730654622bf6e281a84d3e5b9bf008f88a581e24315625761e64e0137c0e1e2.pdf) |
+
+
 ## proc_creation_lnx_susp_recon_indicators
 Title : Linux Recon Indicators
 
@@ -4069,6 +4076,17 @@ Rule id : 0cf7a157-8879-41a2-8f55-388dd23746b7
 | Url | Pdf |
 | --- | --- |
 | https://github.com/sleventyeleven/linuxprivchecker/blob/0d701080bbf92efd464e97d71a70f97c6f2cd658/linuxprivchecker.py | [pdf/073ccb77627089011448d506eb0078d86bf53801bb0cb201b5461b593ca05eea.pdf](pdf/073ccb77627089011448d506eb0078d86bf53801bb0cb201b5461b593ca05eea.pdf) |
+
+
+## proc_creation_lnx_susp_running_process_discovery
+Title : Process Discovery
+
+Rule id : 4e2f5868-08d4-413d-899f-dc2f1508627b
+
+| Url | Pdf |
+| --- | --- |
+| https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1057/T1057.md | [pdf/652ded9c74b085d31301180d65b7236d1fc2f551401da32132f8d8b28f26124b.pdf](pdf/652ded9c74b085d31301180d65b7236d1fc2f551401da32132f8d8b28f26124b.pdf) |
+| https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/ | [pdf/a581a843cc2bec1b82e13cad8609b73a5891f405292dac2a50978696ac23ff66.pdf](pdf/a581a843cc2bec1b82e13cad8609b73a5891f405292dac2a50978696ac23ff66.pdf) |
 
 
 ## proc_creation_lnx_susp_sensitive_file_access
@@ -7704,6 +7722,16 @@ Rule id : c408acfe-2870-41df-8d2f-9f4daa4555ed
 | https://www.microsoft.com/en-us/security/blog/2024/07/29/ransomware-operators-exploit-esxi-hypervisor-vulnerability-for-mass-encryption/ | [pdf/7ff9136a13424f2578853cc5e7ea78069ffe0f26be191494e2302a3915612bf4.pdf](pdf/7ff9136a13424f2578853cc5e7ea78069ffe0f26be191494e2302a3915612bf4.pdf) |
 
 
+## proc_creation_win_exploit_cve_2024_50623_cleo
+Title : CVE-2024-50623 Exploitation Attempt - Cleo
+
+Rule id : f007b877-02e3-45b7-8501-1b78c2864029
+
+| Url | Pdf |
+| --- | --- |
+| https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild | [pdf/b5370d31b075a8642da48044098d7f74fde6d3f4db7ec9089d4a14bceb4c80ea.pdf](pdf/b5370d31b075a8642da48044098d7f74fde6d3f4db7ec9089d4a14bceb4c80ea.pdf) |
+
+
 ## proc_creation_win_exploit_other_bearlpe
 Title : Potential BearLPE Exploitation
 
@@ -10465,6 +10493,16 @@ Rule id : 2bd8e100-5b3b-4b6a-bbb5-b129d3ddddc5
 | https://thedfirreport.com/2023/08/28/html-smuggling-leads-to-domain-wide-ransomware/ | [pdf/844ae479b4d63f3858a9831b2d1e791b08e997df4c9eb86d3e84f335d43d6934.pdf](pdf/844ae479b4d63f3858a9831b2d1e791b08e997df4c9eb86d3e84f335d43d6934.pdf) |
 
 
+## proc_creation_win_malware_kalambur_curl_socks_tor
+Title : Kalambur Backdoor Curl TOR SOCKS Proxy Execution
+
+Rule id : e99375eb-3ee0-407a-9f90-79569cc6a01c
+
+| Url | Pdf |
+| --- | --- |
+| https://blog.eclecticiq.com/sandworm-apt-targets-ukrainian-users-with-trojanized-microsoft-kms-activation-tools-in-cyber-espionage-campaigns | [pdf/7964b2d1633649b39b8547f84ffcb863687fb36595a7d8f1c5090f2e41399525.pdf](pdf/7964b2d1633649b39b8547f84ffcb863687fb36595a7d8f1c5090f2e41399525.pdf) |
+
+
 ## proc_creation_win_malware_kamikakabot_lnk_lure_execution
 Title : Potential KamiKakaBot Activity - Lure Document Execution
 
@@ -10529,6 +10567,19 @@ Rule id : 74db3488-fd28-480a-95aa-b7af626de068
 | https://medium.com/@malwaredancer/lockergoga-input-arguments-ipc-communication-and-others-bd4e5a7ba80a | [pdf/0634fb515c2a48b280e4f2eaa2b722d2929708155a3a6b5234e24361a8840d90.pdf](pdf/0634fb515c2a48b280e4f2eaa2b722d2929708155a3a6b5234e24361a8840d90.pdf) |
 | https://blog.f-secure.com/analysis-of-lockergoga-ransomware/ | [pdf/160bda80996245bce6a8e6839745d6eb43f79502e0c373e0bfa85051bce7fe93.pdf](pdf/160bda80996245bce6a8e6839745d6eb43f79502e0c373e0bfa85051bce7fe93.pdf) |
 | https://www.carbonblack.com/blog/tau-threat-intelligence-notification-lockergoga-ransomware/ | [pdf/127d8e2d55f95b93d182d5fde3831e4edf1d9fb945aa9b129f34e6cb9da7230c.pdf](pdf/127d8e2d55f95b93d182d5fde3831e4edf1d9fb945aa9b129f34e6cb9da7230c.pdf) |
+
+
+## proc_creation_win_malware_lummac_more_vbc
+Title : Lummac Stealer Activity - Execution Of More.com And Vbc.exe
+
+Rule id : 19b3806e-46f2-4b4c-9337-e3d8653245ea
+
+| Url | Pdf |
+| --- | --- |
+| https://www.virustotal.com/gui/search/behaviour_processes%253A%2522C%253A%255C%255CWindows%255C%255CSysWOW64%255C%255Cmore.com%2522%2520behaviour_processes%253A%2522C%253A%255C%255CWindows%255C%255CMicrosoft.NET%255C%255CFramework%255C%255Cv4.0.30319%255C%255Cvbc.exe%2522/files | [pdf/ef3c4cb345657dee8a1a0e8fcd1a0395fe5273549a44420124ec23f6ba5e96f7.pdf](pdf/ef3c4cb345657dee8a1a0e8fcd1a0395fe5273549a44420124ec23f6ba5e96f7.pdf) |
+| https://www.virustotal.com/gui/file/14d886517fff2cc8955844b252c985ab59f2f95b2849002778f03a8f07eb8aef | [pdf/225f01e1946ab70bbe949df86e5d6e622ee27ae050e1517d18a9221a229fe2e4.pdf](pdf/225f01e1946ab70bbe949df86e5d6e622ee27ae050e1517d18a9221a229fe2e4.pdf) |
+| https://strontic.github.io/xcyclopedia/library/more.com-EDB3046610020EE614B5B81B0439895E.html | [pdf/c3d13d9b41b2697b36e57d9f60f2b787b6b23173f68ec35c28181f088bf46b26.pdf](pdf/c3d13d9b41b2697b36e57d9f60f2b787b6b23173f68ec35c28181f088bf46b26.pdf) |
+| https://strontic.github.io/xcyclopedia/library/vbc.exe-A731372E6F6978CE25617AE01B143351.html | [pdf/b2c55bb9b612835fece24ee4c1dbeb220c7bc1e813a589d3a7cabcf0de525e96.pdf](pdf/b2c55bb9b612835fece24ee4c1dbeb220c7bc1e813a589d3a7cabcf0de525e96.pdf) |
 
 
 ## proc_creation_win_malware_maze_ransomware
@@ -11680,6 +11731,17 @@ Rule id : df1f26d3-bea7-4700-9ea2-ad3e990cf90e
 | https://twitter.com/mttaggart/status/1511804863293784064 | [pdf/527d6a3f0229c8050091ffc8b724e89f2b582d960f1af541150bbb728c822434.pdf](pdf/527d6a3f0229c8050091ffc8b724e89f2b582d960f1af541150bbb728c822434.pdf) |
 
 
+## proc_creation_win_notepad_local_passwd_discovery
+Title : Notepad Password Files Discovery
+
+Rule id : 3b4e950b-a3ea-44d3-877e-432071990709
+
+| Url | Pdf |
+| --- | --- |
+| https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/ | [pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf](pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf) |
+| https://intel.thedfirreport.com/eventReports/view/57 | [pdf/ef6b4fcce957647cddaf81afd1a2a1a9a28aca286bf012d9421165ffe65b649b.pdf](pdf/ef6b4fcce957647cddaf81afd1a2a1a9a28aca286bf012d9421165ffe65b649b.pdf) |
+
+
 ## proc_creation_win_nslookup_domain_discovery
 Title : Network Reconnaissance Activity
 
@@ -12816,6 +12878,7 @@ Rule id : 02030f2f-6199-49ec-b258-ea71b07e03dc
 | https://github.com/Kevin-Robertson/Powermad | [pdf/adbee1a5f97cc7439bcf720eaef0dc1507e0b03ec3cfc9ae20b03b9dbe48a226.pdf](pdf/adbee1a5f97cc7439bcf720eaef0dc1507e0b03ec3cfc9ae20b03b9dbe48a226.pdf) |
 | https://github.com/adrecon/ADRecon | [pdf/2c50a3c51c7eacb354a7fbe79cdc30c1bc56b626abde65060bb536e12ca883e0.pdf](pdf/2c50a3c51c7eacb354a7fbe79cdc30c1bc56b626abde65060bb536e12ca883e0.pdf) |
 | https://github.com/adrecon/AzureADRecon | [pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf](pdf/83ff7ed7b59ed0c4c46f9fb70e1187221831d92cfe7edef537dbfb854bb632e3.pdf) |
+| https://github.com/sadshade/veeam-creds/blob/6010eaf31ba41011b58d6af3950cffbf6f5cea32/Veeam-Get-Creds.ps1 | [pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf](pdf/ba6b741b77e0a0c2055f42efb8f1031666092cfbf26a9290ee78b75d8f1168ba.pdf) |
 
 
 ## proc_creation_win_powershell_msexchange_transport_agent
@@ -13485,6 +13548,17 @@ Rule id : 74a12f18-505c-4114-8d0b-8448dd5485c6
 | https://github.com/redcanaryco/atomic-red-team/blob/28d190330fe44de6ff4767fc400cc10fa7cd6540/atomics/T1105/T1105.md | [pdf/f2fd701e70df5697baa5bd3993ad1bb7081102aaceed2cbc23ef6328d28ef38b.pdf](pdf/f2fd701e70df5697baa5bd3993ad1bb7081102aaceed2cbc23ef6328d28ef38b.pdf) |
 
 
+## proc_creation_win_pua_nimscan
+Title : PUA - NimScan Execution
+
+Rule id : 4fd6b1c7-19b8-4488-97f6-00f0924991a3
+
+| Url | Pdf |
+| --- | --- |
+| https://x.com/cyberfeeddigest/status/1887041526397587859 | [pdf/293a7ef0bf5384cb3351c62bae1e361047d70ef73bc44c12589853ccc442774f.pdf](pdf/293a7ef0bf5384cb3351c62bae1e361047d70ef73bc44c12589853ccc442774f.pdf) |
+| https://github.com/elddy/NimScan | [pdf/2cbcfd4f271701050d7e5b3c8e30a88c58e682f0f2db31251e00feefc168dc63.pdf](pdf/2cbcfd4f271701050d7e5b3c8e30a88c58e682f0f2db31251e00feefc168dc63.pdf) |
+
+
 ## proc_creation_win_pua_nircmd
 Title : PUA - NirCmd Execution
 
@@ -13724,6 +13798,19 @@ Rule id : 53ef0cef-fa24-4f25-a34a-6c72dfa2e6e2
 | Url | Pdf |
 | --- | --- |
 | https://twitter.com/MichalKoczwara/status/1553634816016498688 | [pdf/9438b522641b5507921a64a3a8a6e7f382b9bae2967f2720a949608c49a7bea9.pdf](pdf/9438b522641b5507921a64a3a8a6e7f382b9bae2967f2720a949608c49a7bea9.pdf) |
+
+
+## proc_creation_win_quickassist_execution
+Title : QuickAssist Execution
+
+Rule id : e20b5b14-ce93-4230-88af-981983ef6e74
+
+| Url | Pdf |
+| --- | --- |
+| https://www.microsoft.com/en-us/security/blog/2024/05/15/threat-actors-misusing-quick-assist-in-social-engineering-attacks-leading-to-ransomware/ | [pdf/c36ef60356c88ac86889b65172bd0abde5c8e865baa15e78b12e4c60e75e4a9f.pdf](pdf/c36ef60356c88ac86889b65172bd0abde5c8e865baa15e78b12e4c60e75e4a9f.pdf) |
+| https://www.linkedin.com/posts/kevin-beaumont-security_ive-been-assisting-a-few-orgs-hit-with-successful-activity-7268055739116445701-xxjZ/ | [pdf/08b46f75798ef34214c51026e7e82d67521393a66bcab0aab74b870c9bcd46e0.pdf](pdf/08b46f75798ef34214c51026e7e82d67521393a66bcab0aab74b870c9bcd46e0.pdf) |
+| https://x.com/cyb3rops/status/1862406110365245506 | [pdf/cbb0e67c26e934d852400859ababa6a9c59e2865809b3a3553e87218180838a1.pdf](pdf/cbb0e67c26e934d852400859ababa6a9c59e2865809b3a3553e87218180838a1.pdf) |
+| https://learn.microsoft.com/en-us/windows/client-management/client-tools/quick-assist | [pdf/f7d516952270dc3231706a43c60019dfc33d6e34ae8c257244c9f75eb1e401b3.pdf](pdf/f7d516952270dc3231706a43c60019dfc33d6e34ae8c257244c9f75eb1e401b3.pdf) |
 
 
 ## proc_creation_win_rar_compress_data
@@ -14486,6 +14573,7 @@ Rule id : b52e84a3-029e-4529-b09b-71d19dd27e94
 | Url | Pdf |
 | --- | --- |
 | https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1219/T1219.md#atomic-test-2---anydesk-files-detected-test-on-windows | [pdf/c974f4ee24da1d43205e7e0d03f309ffddf6579eec8899597d1534323ca83515.pdf](pdf/c974f4ee24da1d43205e7e0d03f309ffddf6579eec8899597d1534323ca83515.pdf) |
+| https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/ | [pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf](pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf) |
 
 
 ## proc_creation_win_remote_access_tools_anydesk_piped_password_via_cli
@@ -14528,6 +14616,7 @@ Rule id : 065b00ca-5d5c-4557-ac95-64a6d0b64d86
 | Url | Pdf |
 | --- | --- |
 | https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1219/T1219.md#atomic-test-2---anydesk-files-detected-test-on-windows | [pdf/c974f4ee24da1d43205e7e0d03f309ffddf6579eec8899597d1534323ca83515.pdf](pdf/c974f4ee24da1d43205e7e0d03f309ffddf6579eec8899597d1534323ca83515.pdf) |
+| https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/ | [pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf](pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf) |
 
 
 ## proc_creation_win_remote_access_tools_anyviewer_shell_exec
@@ -15213,6 +15302,7 @@ Rule id : 43fa5350-db63-4b8f-9a01-789a427074e1
 
 | Url | Pdf |
 | --- | --- |
+| https://www.youtube.com/watch?v=52tAmVLg1KM&t=2070s | [pdf/910d31ccee6a4760d143615b497c9718c7cc2721381d6265641e13d76bf047eb.pdf](pdf/910d31ccee6a4760d143615b497c9718c7cc2721381d6265641e13d76bf047eb.pdf) |
 
 
 ## proc_creation_win_rundll32_parent_explorer
@@ -15240,6 +15330,7 @@ Rule id : 646ea171-dded-4578-8a4d-65e9822892e3
 | https://twitter.com/SBousseaden/status/1167417096374050817 | [pdf/f4a05a5f9f54eb3ccb4a47ffaa57afadc1c01da98510145d4cfa63432d4ab4fb.pdf](pdf/f4a05a5f9f54eb3ccb4a47ffaa57afadc1c01da98510145d4cfa63432d4ab4fb.pdf) |
 | https://twitter.com/Wietze/status/1542107456507203586 | [pdf/a35a1e570a36900e81081278df2cd899ac8f4783fbdc9667a5ed702d01c1d0d3.pdf](pdf/a35a1e570a36900e81081278df2cd899ac8f4783fbdc9667a5ed702d01c1d0d3.pdf) |
 | https://github.com/Hackndo/lsassy/blob/14d8f8ae596ecf22b449bfe919829173b8a07635/lsassy/dumpmethod/comsvcs.py | [pdf/22c4262613f63beeca6acf9ad85625d9b9f8a5c66eb670eef51e8b7c33d966b8.pdf](pdf/22c4262613f63beeca6acf9ad85625d9b9f8a5c66eb670eef51e8b7c33d966b8.pdf) |
+| https://www.youtube.com/watch?v=52tAmVLg1KM&t=2070s | [pdf/910d31ccee6a4760d143615b497c9718c7cc2721381d6265641e13d76bf047eb.pdf](pdf/910d31ccee6a4760d143615b497c9718c7cc2721381d6265641e13d76bf047eb.pdf) |
 
 
 ## proc_creation_win_rundll32_registered_com_objects
@@ -15352,6 +15443,19 @@ Rule id : d87bd452-6da1-456e-8155-7dc988157b7d
 | https://redcanary.com/blog/raspberry-robin/ | [pdf/95b7ceb708ea771d5cd55c8b644c86e662c27355911260367d55533e5337c685.pdf](pdf/95b7ceb708ea771d5cd55c8b644c86e662c27355911260367d55533e5337c685.pdf) |
 | https://www.microsoft.com/en-us/security/blog/2022/10/27/raspberry-robin-worm-part-of-larger-ecosystem-facilitating-pre-ransomware-activity/ | [pdf/5ccdc350a77053675e8a62dc96c57f5fd73a5cc0be0ed9b52788e83e4d910ff3.pdf](pdf/5ccdc350a77053675e8a62dc96c57f5fd73a5cc0be0ed9b52788e83e4d910ff3.pdf) |
 | https://github.com/SigmaHQ/sigma/issues/1009 | [pdf/0f34e7ede1d075ba83561226c72d9339c62f4e8ac7d16376d807ffce583d30da.pdf](pdf/0f34e7ede1d075ba83561226c72d9339c62f4e8ac7d16376d807ffce583d30da.pdf) |
+
+
+## proc_creation_win_rundll32_susp_shellexec_ordinal_execution
+Title : Suspicious ShellExec_RunDLL Call Via Ordinal
+
+Rule id : 8823e85d-31d8-473e-b7f4-92da070f0fc6
+
+| Url | Pdf |
+| --- | --- |
+| https://redcanary.com/blog/raspberry-robin/ | [pdf/95b7ceb708ea771d5cd55c8b644c86e662c27355911260367d55533e5337c685.pdf](pdf/95b7ceb708ea771d5cd55c8b644c86e662c27355911260367d55533e5337c685.pdf) |
+| https://www.microsoft.com/en-us/security/blog/2022/10/27/raspberry-robin-worm-part-of-larger-ecosystem-facilitating-pre-ransomware-activity/ | [pdf/5ccdc350a77053675e8a62dc96c57f5fd73a5cc0be0ed9b52788e83e4d910ff3.pdf](pdf/5ccdc350a77053675e8a62dc96c57f5fd73a5cc0be0ed9b52788e83e4d910ff3.pdf) |
+| https://github.com/SigmaHQ/sigma/issues/1009 | [pdf/0f34e7ede1d075ba83561226c72d9339c62f4e8ac7d16376d807ffce583d30da.pdf](pdf/0f34e7ede1d075ba83561226c72d9339c62f4e8ac7d16376d807ffce583d30da.pdf) |
+| https://strontic.github.io/xcyclopedia/library/shell32.dll-65DA072F25DE83D9F83653E3FEA3644D.html | [pdf/22c7f53f24d6827336f577e508b83327bde1685b60418d06ceaaa4a17b39aeb8.pdf](pdf/22c7f53f24d6827336f577e508b83327bde1685b60418d06ceaaa4a17b39aeb8.pdf) |
 
 
 ## proc_creation_win_rundll32_susp_shimcache_flush
@@ -15925,6 +16029,16 @@ Rule id : 1eeed653-dbc8-4187-ad0c-eeebb20e6599
 | --- | --- |
 | https://web.archive.org/web/20200329173843/https://p16.praetorian.com/blog/how-to-use-kerberoasting-t1208-for-privilege-escalation | [pdf/bcb59b5779016535147352376652d6f7bad264e7c50c44601b3baa45abc80ce2.pdf](pdf/bcb59b5779016535147352376652d6f7bad264e7c50c44601b3baa45abc80ce2.pdf) |
 | https://www.praetorian.com/blog/how-to-use-kerberoasting-t1208-for-privilege-escalation/?edition=2019 | [pdf/1be640ae92d177df290b1aabe36cdd80e6d48cf73df3fa7d7eecf31622c6cc85.pdf](pdf/1be640ae92d177df290b1aabe36cdd80e6d48cf73df3fa7d7eecf31622c6cc85.pdf) |
+
+
+## proc_creation_win_setup16_custom_lst_execution
+Title : Setup16.EXE Execution With Custom .Lst File
+
+Rule id : 99c8be4f-3087-4f9f-9c24-8c7e257b442e
+
+| Url | Pdf |
+| --- | --- |
+| https://www.hexacorn.com/blog/2024/10/12/the-sweet16-the-oldbin-lolbin-called-setup16-exe/ | [pdf/12286f83201cd3774e82f69212c1b05ae28c51a274dd6816ab4aef097698e298.pdf](pdf/12286f83201cd3774e82f69212c1b05ae28c51a274dd6816ab4aef097698e298.pdf) |
 
 
 ## proc_creation_win_shutdown_execution
@@ -18452,6 +18566,7 @@ Rule id : bed2a484-9348-4143-8a8a-b801c979301c
 | --- | --- |
 | https://www.fireeye.com/blog/threat-research/2013/08/breaking-down-the-china-chopper-web-shell-part-ii.html | [pdf/287fe80cb02ea61fdf6f13a47b1797487575b4e871379f1e5447427a28c45ce6.pdf](pdf/287fe80cb02ea61fdf6f13a47b1797487575b4e871379f1e5447427a28c45ce6.pdf) |
 | https://unit42.paloaltonetworks.com/bumblebee-webshell-xhunt-campaign/ | [pdf/d3f3bfd6116c7656db52a5d4f016f55b4a1814ed7624f3296944783f36926bc3.pdf](pdf/d3f3bfd6116c7656db52a5d4f016f55b4a1814ed7624f3296944783f36926bc3.pdf) |
+| https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild | [pdf/b5370d31b075a8642da48044098d7f74fde6d3f4db7ec9089d4a14bceb4c80ea.pdf](pdf/b5370d31b075a8642da48044098d7f74fde6d3f4db7ec9089d4a14bceb4c80ea.pdf) |
 
 
 ## proc_creation_win_webshell_susp_process_spawned_from_webserver
