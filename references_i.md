@@ -31,6 +31,17 @@ Rule id : 24007168-a26b-4049-90d0-ce138e13a5cf
 | https://www.bleepingcomputer.com/news/security/lazarus-hackers-breach-aerospace-firm-with-new-lightlesscan-malware/ | [pdf/14fa79aaa4bf4e3e15ed709bfef0d090632eed99d7c5e409e1dd3586041cdc69.pdf](pdf/14fa79aaa4bf4e3e15ed709bfef0d090632eed99d7c5e409e1dd3586041cdc69.pdf) |
 
 
+## image_load_clfs_load
+Title : Clfs.SYS Loaded By Process Located In a Potential Suspicious Location
+
+Rule id : fb4e2211-6d08-426b-8e6f-0d4a161e3b1d
+
+| Url | Pdf |
+| --- | --- |
+| https://ssd-disclosure.com/ssd-advisory-common-log-file-system-clfs-driver-pe/ | [pdf/e24dd263ca00c75bf887c28fc14179bbb914e4ae0591a285eb80353a7e164c87.pdf](pdf/e24dd263ca00c75bf887c28fc14179bbb914e4ae0591a285eb80353a7e164c87.pdf) |
+| https://x.com/Threatlabz/status/1879956781360976155 | [pdf/2567ce26122380cad0d45bc25c8b6c3147fec9753c35544b4a1f189f3d77d374.pdf](pdf/2567ce26122380cad0d45bc25c8b6c3147fec9753c35544b4a1f189f3d77d374.pdf) |
+
+
 ## image_load_cmstp_load_dll_from_susp_location
 Title : DLL Loaded From Suspicious Location Via Cmspt.EXE
 
@@ -234,13 +245,26 @@ Rule id : 37774c23-25a1-4adb-bb6d-8bb9fd59c0f8
 
 
 ## image_load_dll_vsstrace_susp_load
-Title : Suspicious Volume Shadow Copy Vsstrace.dll Load
+Title : Potentially Suspicious Volume Shadow Copy Vsstrace.dll Load
 
 Rule id : 48bfd177-7cf2-412b-ad77-baf923489e82
 
 | Url | Pdf |
 | --- | --- |
 | https://github.com/ORCx41/DeleteShadowCopies | [pdf/65a56532408657cc5c10f91d48bfe0718eaf4aace6ca638a1e3da425949de2da.pdf](pdf/65a56532408657cc5c10f91d48bfe0718eaf4aace6ca638a1e3da425949de2da.pdf) |
+
+
+## image_load_exploit_cve_2024_35250_privilege_escalation
+Title : Potential CVE-2024-35250 Exploitation Activity
+
+Rule id : 17ce9373-2163-4a2c-90ba-f91e9ef7a8c1
+
+| Url | Pdf |
+| --- | --- |
+| https://thehackernews.com/2024/12/cisa-and-fbi-raise-alerts-on-exploited.html | [pdf/fbb63a341cc1cb2e609074b904bb66c5356795d7911d840adb0a42a722601d99.pdf](pdf/fbb63a341cc1cb2e609074b904bb66c5356795d7911d840adb0a42a722601d99.pdf) |
+| https://github.com/varwara/CVE-2024-35250 | [pdf/2793a96eafe8fe2537e8b9f486393ea5451529293f8df8aaa36d7c22015cc15e.pdf](pdf/2793a96eafe8fe2537e8b9f486393ea5451529293f8df8aaa36d7c22015cc15e.pdf) |
+| https://devco.re/blog/2024/08/23/streaming-vulnerabilities-from-windows-kernel-proxying-to-kernel-part1-en/ | [pdf/20a61f9562437b548702332a40202ec6f5813808fc758e30d04e8c8a98b0a6c7.pdf](pdf/20a61f9562437b548702332a40202ec6f5813808fc758e30d04e8c8a98b0a6c7.pdf) |
+| https://www.cisa.gov/known-exploited-vulnerabilities-catalog | [pdf/18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0.pdf](pdf/18d4ac8f8ecac5a742c8886688eca44bed7b8eaec48f5fc67aa3918dccc1f4e0.pdf) |
 
 
 ## image_load_hktl_sharpevtmute

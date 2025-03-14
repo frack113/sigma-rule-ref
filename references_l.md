@@ -318,7 +318,7 @@ Rule id : f4d3748a-65d1-4806-bd23-e25728081d01
 
 
 ## lnx_auditd_password_policy_discovery
-Title : Password Policy Discovery
+Title : Password Policy Discovery - Linux
 
 Rule id : ca94a6db-8106-4737-9ed2-3e3bb826af0a
 
@@ -328,16 +328,6 @@ Rule id : ca94a6db-8106-4737-9ed2-3e3bb826af0a
 | https://linux.die.net/man/1/chage | [pdf/de647f142c96880a85a25cd2945ebd2e4be2f24b63c8d81e3b160a39e27a7e74.pdf](pdf/de647f142c96880a85a25cd2945ebd2e4be2f24b63c8d81e3b160a39e27a7e74.pdf) |
 | https://man7.org/linux/man-pages/man1/passwd.1.html | [pdf/d7f8b84b24092dd8845ff29ec503796fd34d6f58cb46a96f1a24cf02f98117b2.pdf](pdf/d7f8b84b24092dd8845ff29ec503796fd34d6f58cb46a96f1a24cf02f98117b2.pdf) |
 | https://superuser.com/questions/150675/how-to-display-password-policy-information-for-a-user-ubuntu | [pdf/391f74eaad9769fc6154ca129283808bfd2ddc5e5e9a7153dc3a17d0237140bb.pdf](pdf/391f74eaad9769fc6154ca129283808bfd2ddc5e5e9a7153dc3a17d0237140bb.pdf) |
-
-
-## lnx_auditd_pers_systemd_reload
-Title : Systemd Service Reload or Start
-
-Rule id : 2625cc59-0634-40d0-821e-cb67382a3dd7
-
-| Url | Pdf |
-| --- | --- |
-| https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1543.002/T1543.002.md | [pdf/057adfb7814cc45a77a9d35457330b4f4fd5991cc1681789f04d79a1047301e4.pdf](pdf/057adfb7814cc45a77a9d35457330b4f4fd5991cc1681789f04d79a1047301e4.pdf) |
 
 
 ## lnx_auditd_screencapture_import
@@ -431,6 +421,16 @@ Rule id : eae8ce9f-bde9-47a6-8e79-f20d18419910
 | https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1552.003/T1552.003.md | [pdf/4e4f1f6405e59b27c2314dee26a852f7b7f41e63a149a1871f3d2c0cb8588ec4.pdf](pdf/4e4f1f6405e59b27c2314dee26a852f7b7f41e63a149a1871f3d2c0cb8588ec4.pdf) |
 
 
+## lnx_auditd_susp_service_reload_or_restart
+Title : Service Reload or Start - Linux
+
+Rule id : 2625cc59-0634-40d0-821e-cb67382a3dd7
+
+| Url | Pdf |
+| --- | --- |
+| https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1543.002/T1543.002.md | [pdf/057adfb7814cc45a77a9d35457330b4f4fd5991cc1681789f04d79a1047301e4.pdf](pdf/057adfb7814cc45a77a9d35457330b4f4fd5991cc1681789f04d79a1047301e4.pdf) |
+
+
 ## lnx_auditd_system_info_discovery
 Title : System Information Discovery - Auditd
 
@@ -494,7 +494,7 @@ Rule id : edd595d7-7895-4fa7-acb3-85a18a8772ca
 
 
 ## lnx_auditd_user_discovery
-Title : System Owner or User Discovery
+Title : System Owner or User Discovery - Linux
 
 Rule id : 9a0d8ca0-2385-4020-b6c6-cb6153ca56f3
 

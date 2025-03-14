@@ -173,6 +173,19 @@ Rule id : df68f791-ad95-447f-a271-640a0dab9cf8
 | https://malware.guide/browser-hijacker/remove-onelaunch-virus/ | [pdf/f3ee63c2b44d189605875ea6274ad1a58fb743d267a783f10a8a705dfb3ab036.pdf](pdf/f3ee63c2b44d189605875ea6274ad1a58fb743d267a783f10a8a705dfb3ab036.pdf) |
 
 
+## dns_query_win_quickassist
+Title : DNS Query Request By QuickAssist.EXE
+
+Rule id : 882e858a-3233-4ba8-855e-2f3d3575803d
+
+| Url | Pdf |
+| --- | --- |
+| https://www.microsoft.com/en-us/security/blog/2024/05/15/threat-actors-misusing-quick-assist-in-social-engineering-attacks-leading-to-ransomware/ | [pdf/c36ef60356c88ac86889b65172bd0abde5c8e865baa15e78b12e4c60e75e4a9f.pdf](pdf/c36ef60356c88ac86889b65172bd0abde5c8e865baa15e78b12e4c60e75e4a9f.pdf) |
+| https://www.linkedin.com/posts/kevin-beaumont-security_ive-been-assisting-a-few-orgs-hit-with-successful-activity-7268055739116445701-xxjZ/ | [pdf/08b46f75798ef34214c51026e7e82d67521393a66bcab0aab74b870c9bcd46e0.pdf](pdf/08b46f75798ef34214c51026e7e82d67521393a66bcab0aab74b870c9bcd46e0.pdf) |
+| https://x.com/cyb3rops/status/1862406110365245506 | [pdf/cbb0e67c26e934d852400859ababa6a9c59e2865809b3a3553e87218180838a1.pdf](pdf/cbb0e67c26e934d852400859ababa6a9c59e2865809b3a3553e87218180838a1.pdf) |
+| https://learn.microsoft.com/en-us/windows/client-management/client-tools/quick-assist | [pdf/f7d516952270dc3231706a43c60019dfc33d6e34ae8c257244c9f75eb1e401b3.pdf](pdf/f7d516952270dc3231706a43c60019dfc33d6e34ae8c257244c9f75eb1e401b3.pdf) |
+
+
 ## dns_query_win_regsvr32_dns_query
 Title : DNS Query Request By Regsvr32.EXE
 

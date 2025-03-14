@@ -967,6 +967,17 @@ Rule id : 5d19eb78-5b5b-4ef2-a9f0-4bfa94d58a13
 | https://github.com/SigmaHQ/sigma/pull/4467 | [pdf/059cd9eb70fefa147d3c1e2faf25caf4d562495a48da6bf4de2837c7502ac548.pdf](pdf/059cd9eb70fefa147d3c1e2faf25caf4d562495a48da6bf4de2837c7502ac548.pdf) |
 
 
+## win_application_error_exploit_cve_2024_49113_ldap_nightmare
+Title : CVE-2024-49113 Exploitation Attempt - LDAP Nightmare
+
+Rule id : 3f2c93c7-7b2a-4d58-bb8d-6f39422d8148
+
+| Url | Pdf |
+| --- | --- |
+| https://gist.github.com/travisbgreen/82b68bac499edbe0b17dcbfa0c5c71b7 | [pdf/0c30774ef6f5bbd64b63744e2fbf7cb8326c289c814d345c358a8a28bdf821da.pdf](pdf/0c30774ef6f5bbd64b63744e2fbf7cb8326c289c814d345c358a8a28bdf821da.pdf) |
+| https://www.linkedin.com/feed/update/urn:li:activity:7282295814792605698/ | [pdf/011da6231ce9144edb6ad9f616118b65529bbf0876a610809949f40774cf5692.pdf](pdf/011da6231ce9144edb6ad9f616118b65529bbf0876a610809949f40774cf5692.pdf) |
+
+
 ## win_application_exploit_cve_2023_40477_winrar_crash
 Title : CVE-2023-40477 Potential Exploitation - WinRAR Application Crash
 
@@ -3226,6 +3237,18 @@ Rule id : 9599c180-e3a8-4743-8f92-7fb96d3be648
 | https://threathunterplaybook.com/hunts/windows/200902-RemoteWMIActiveScriptEventConsumers/notebook.html | [pdf/ea5acd060b850390498c17b4f4d29a0dc175941a03aed6f3c5d4fa6419cd236b.pdf](pdf/ea5acd060b850390498c17b4f4d29a0dc175941a03aed6f3c5d4fa6419cd236b.pdf) |
 
 
+## win_security_sdelete_potential_secure_deletion
+Title : Potential Secure Deletion with SDelete
+
+Rule id : 39a80702-d7ca-4a83-b776-525b1f86a36d
+
+| Url | Pdf |
+| --- | --- |
+| https://jpcertcc.github.io/ToolAnalysisResultSheet/details/sdelete.htm | [pdf/d4cd0c8f17f6e2a5b62d3d2684e0de591768d053101f0a78bff3d57eb4761d06.pdf](pdf/d4cd0c8f17f6e2a5b62d3d2684e0de591768d053101f0a78bff3d57eb4761d06.pdf) |
+| https://www.jpcert.or.jp/english/pub/sr/ir_research.html | [pdf/f769cc934a22537ade2e2a582fd8a8d98063fb079f8f6edfb11249ef79ade5f1.pdf](pdf/f769cc934a22537ade2e2a582fd8a8d98063fb079f8f6edfb11249ef79ade5f1.pdf) |
+| https://learn.microsoft.com/en-gb/sysinternals/downloads/sdelete | [pdf/771aa048c1b064553c174ca34e1ef8297da5809f20e57dd4d017a01fbf3779c8.pdf](pdf/771aa048c1b064553c174ca34e1ef8297da5809f20e57dd4d017a01fbf3779c8.pdf) |
+
+
 ## win_security_security_enabled_global_group_deleted
 Title : A Security-Enabled Global Group Was Deleted
 
@@ -3602,18 +3625,6 @@ Rule id : 614cf376-6651-47c4-9dcc-6b9527f749f4
 | https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/auditing/event-4698 | [pdf/3e710fb07f460cc08b12339e7ebebb49d0300312a64053912cbd2d5cd7952cbc.pdf](pdf/3e710fb07f460cc08b12339e7ebebb49d0300312a64053912cbd2d5cd7952cbc.pdf) |
 
 
-## win_security_susp_sdelete
-Title : Secure Deletion with SDelete
-
-Rule id : 39a80702-d7ca-4a83-b776-525b1f86a36d
-
-| Url | Pdf |
-| --- | --- |
-| https://jpcertcc.github.io/ToolAnalysisResultSheet/details/sdelete.htm | [pdf/d4cd0c8f17f6e2a5b62d3d2684e0de591768d053101f0a78bff3d57eb4761d06.pdf](pdf/d4cd0c8f17f6e2a5b62d3d2684e0de591768d053101f0a78bff3d57eb4761d06.pdf) |
-| https://www.jpcert.or.jp/english/pub/sr/ir_research.html | [pdf/f769cc934a22537ade2e2a582fd8a8d98063fb079f8f6edfb11249ef79ade5f1.pdf](pdf/f769cc934a22537ade2e2a582fd8a8d98063fb079f8f6edfb11249ef79ade5f1.pdf) |
-| https://learn.microsoft.com/en-gb/sysinternals/downloads/sdelete | [pdf/771aa048c1b064553c174ca34e1ef8297da5809f20e57dd4d017a01fbf3779c8.pdf](pdf/771aa048c1b064553c174ca34e1ef8297da5809f20e57dd4d017a01fbf3779c8.pdf) |
-
-
 ## win_security_susp_time_modification
 Title : Unauthorized System Time Modification
 
@@ -3787,16 +3798,6 @@ Rule id : 46a68649-f218-4f86-aea1-16a759d81820
 Title : Windows Defender Exclusion Registry Key - Write Access Requested
 
 Rule id : e9c8808f-4cfb-4ba9-97d4-e5f3beaa244d
-
-| Url | Pdf |
-| --- | --- |
-| https://www.bleepingcomputer.com/news/security/gootkit-malware-bypasses-windows-defender-by-setting-path-exclusions/ | [pdf/4a20c96f0f3a22f04f644e1b0581420ebea7892b5d1952302e9cb631593124cd.pdf](pdf/4a20c96f0f3a22f04f644e1b0581420ebea7892b5d1952302e9cb631593124cd.pdf) |
-
-
-## win_security_windows_defender_exclusions_write_deleted
-Title : Windows Defender Exclusion Deleted
-
-Rule id : a33f8808-2812-4373-ae95-8cfb82134978
 
 | Url | Pdf |
 | --- | --- |
@@ -4349,6 +4350,7 @@ Rule id : 530a6faa-ff3d-4022-b315-50828e77eef5
 | Url | Pdf |
 | --- | --- |
 | https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/ | [pdf/35c6b73e4bc77b85ed4aa03d2ce2dcc09b930232d546bb5554c435f2e9374f78.pdf](pdf/35c6b73e4bc77b85ed4aa03d2ce2dcc09b930232d546bb5554c435f2e9374f78.pdf) |
+| https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/ | [pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf](pdf/f80ac474c23184c005e8216de5a567cba2320ea0c030df7dba7900bd2efe8657.pdf) |
 
 
 ## win_system_service_install_csexecsvc
